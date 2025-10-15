@@ -81,47 +81,17 @@
 
 <p>MOREL also has a <a href="/morel-no-code-generator/search">search engine</a> that allows you to find works directly.</p>
 
-                  <h1 id="instructions-to-install-the-theme">Instructions to install the theme</h1>
-
-<h2 id="install">Install</h2>
-
-<!-- ### Remote (using your web browser)-->
-
-<h3 id="local-using-command-line">Local (using command line)</h3>
-
+                  <h1 id="build-your-morel-website-from-a-zotero-collection-in-7-simple-steps">Build your MOREL website from a Zotero collection in 7 simple steps</h1>
 <ul>
-  <li><strong>Fork the repository</strong> — that is, create a copy in your <a href="https://github.com">GitHub</a> account.</li>
-  <li>Open your system’s terminal in the folder on your local computer where you will be working on the site. Mac and Linux have native terminals. For Windows, use <a href="https://learn.microsoft.com/en-us/windows/wsl/install">WSL (Windows Subsystem for Linux)</a>.</li>
-  <li>Run:
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git clone https://github.com/[your_username]/morel-theme-generator
-</code></pre></div>    </div>
-    <p>to clone the repository.</p>
+  <li><strong>Prepare the Zotero Fields</strong> for a MOREL website {#zotero-fields}. MOREL items are added in the same way that items are added in any <a href="https://www.zotero.org/support/adding_items_to_zotero">Zotero library</a>. In its current version, MOREL can only process items of type <code class="language-plaintext highlighter-rouge">book</code>. Since not all the fields needed for MOREL are available for the <code class="language-plaintext highlighter-rouge">book</code> content type, some considerations must be made:
+    <ul>
+      <li>Excerpt: the fragment from each MOREL record corresponds to the <code class="language-plaintext highlighter-rouge">notes</code> of Zotero (see the <a href="https://www.zotero.org/support/notes">documentation</a> about Zotero notes). In its current version, MOREL <em>only accepts one excerpt per book</em>.</li>
+      <li>Cover: the cover is a jpg file that is added as an <code class="language-plaintext highlighter-rouge">attachment</code> to the Zotero item (see the Zotero attachments <a href="https://www.zotero.org/support/attaching_files">documentation</a>).</li>
+    </ul>
   </li>
-  <li>Run:
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ cd morel-theme-generator
-</code></pre></div>    </div>
-    <p>to move to the repository folder.</p>
-  </li>
-  <li>Run:
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bundle update
-</code></pre></div>    </div>
-    <p>to update the theme and its dependencies. If you don’t have Ruby on your system, follow the instructions in <a href="https://jekyllrb.com/docs/ruby-101/">Jekyll</a></p>
-  </li>
-  <li>Run:
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby serve-local.rb
-</code></pre></div>    </div>
-    <p>to launch the test site locally.</p>
-  </li>
-</ul>
-
-<h2 id="configure">Customize</h2>
-
-<p>You now have a ready-made site <em>with sample content from the MOREL site Afro Latin American Writers in Translation (<a href="https://alawit.org">ALAWiT</a>)</em>.</p>
-
-<p>To fill it with your site’s information, follow these steps:</p>
-
-<ul>
-  <li>Open <code class="language-plaintext highlighter-rouge">_config.yml</code> and change:
+  <li><strong>Fork this repository</strong> — that is, create a copy in your <a href="https://github.com">GitHub</a> account.</li>
+  <li><strong>Go to the <code class="language-plaintext highlighter-rouge">actions</code> tab</strong> and enable workflows.</li>
+  <li><strong>Open <code class="language-plaintext highlighter-rouge">_config.yml</code> and change</strong>:
     <ul>
       <li>The <code class="language-plaintext highlighter-rouge">title</code> to your site’s.</li>
       <li>The <code class="language-plaintext highlighter-rouge">tagline</code> to your site’s.</li>
@@ -129,81 +99,11 @@
       <li>The <code class="language-plaintext highlighter-rouge">jotform</code> link (create your free account at https://www.jotform.com/).</li>
     </ul>
   </li>
-  <li>Open the file <code class="language-plaintext highlighter-rouge">_about/site-description.md</code> and write a description for your site. The <code class="language-plaintext highlighter-rouge">&lt;!-- more --&gt;</code> line separates what appears in the footer across all pages from the longer description that appears on the <code class="language-plaintext highlighter-rouge">about</code> page only. For this to work you have to complete the final step of this section.</li>
-  <li>Replace the logo, pattern and avatar files by adding a file to:
-    <ul>
-      <li><code class="language-plaintext highlighter-rouge">assets/img/tema/logo.png</code></li>
-      <li><code class="language-plaintext highlighter-rouge">assets/img/tema/avatar.jpg</code></li>
-      <li><code class="language-plaintext highlighter-rouge">assets/img/tema/trama.png</code></li>
-      <li><code class="language-plaintext highlighter-rouge">assets/img/tema/add.jpg</code></li>
-    </ul>
-  </li>
-  <li>Open the <code class="language-plaintext highlighter-rouge">podcast.md</code> file and change the title and tagline of your podcast or blog.</li>
-  <li>The <code class="language-plaintext highlighter-rouge">_posts</code> folder has the MOREL posts. Delete the MOREL posts and create your own with <a href="https://jekyllrb.com/docs/posts/">Jekyll nomenclature</a>. If you don’t want to add any podcast posts or episodes to your site, change in <code class="language-plaintext highlighter-rouge">_config.yml</code> the <code class="language-plaintext highlighter-rouge">podcast</code> value to <code class="language-plaintext highlighter-rouge">false</code></li>
-  <li>Commit the changes and wait for the customized site to deploy. If you are using GitHub in the web browser, just wait the site to deploy. If you are working locally, push the changes to see them online, or test them locally with
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby serve-local.rb
-</code></pre></div>    </div>
-  </li>
+  <li><strong>Go to the <code class="language-plaintext highlighter-rouge">settings</code> tab</strong>, open the <code class="language-plaintext highlighter-rouge">pages</code> section, and select <code class="language-plaintext highlighter-rouge">gh-pages</code> as the branch that will build the site.</li>
+  <li><strong>Open the file <code class="language-plaintext highlighter-rouge">_abouts/site-description.md</code></strong> and write a description for your site. The <code class="language-plaintext highlighter-rouge">&lt;!-- more --&gt;</code> line separates what appears in the footer across all pages from the longer description that appears on the <code class="language-plaintext highlighter-rouge">about</code> page only.</li>
+  <li><strong>Generate the content from Zotero</strong> by exporting a collection, subcollection or library as a <code class="language-plaintext highlighter-rouge">csv</code> file, and replacing the content of <code class="language-plaintext highlighter-rouge">assets/data/books_zotero.csv</code></li>
 </ul>
 
-<h2 id="generating-the-content-from-zotero">Generating the content from Zotero</h2>
-
-<!--### Remote (using your web browser)-->
-
-<h3 id="local-using-command-line-1">Local (using command line)</h3>
-
-<ul>
-  <li>
-    <p>Open <a href="https://www.zotero.org/">Zotero</a> and review the <a href="#zotero-fields">guide</a> at the end of this instructions to make the fields 100 % readable for MOREL.</p>
-  </li>
-  <li>
-    <p>Export your Zotero collection as a <code class="language-plaintext highlighter-rouge">.csv</code> file. If you don’t know how to do it follow the instructions <a href="https://www.zotero.org/support/kb/exporting">here</a>.</p>
-  </li>
-  <li>
-    <p>Name your <code class="language-plaintext highlighter-rouge">.csv</code> file <code class="language-plaintext highlighter-rouge">books_zotero.csv</code> and place it inside the <code class="language-plaintext highlighter-rouge">assets/data</code> folder.</p>
-  </li>
-  <li>Run:
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 -m venv assets/env
-</code></pre></div>    </div>
-    <p>to create the Python environment.</p>
-  </li>
-  <li>Run:
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>source assets/env/bin/activate
-</code></pre></div>    </div>
-    <p>to activate the Python environment.</p>
-  </li>
-  <li>Run:
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pip install -r requirements.txt
-</code></pre></div>    </div>
-    <p>to install the dependencies.</p>
-  </li>
-  <li>Run:
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 assets/env/src/cleanup_output.py
-</code></pre></div>    </div>
-    <p>to delete the sample content.</p>
-  </li>
-  <li>Run:
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python3 assets/env/src/morel-generate.py
-</code></pre></div>    </div>
-    <p>to generate your content</p>
-  </li>
-  <li>Run:
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ruby serve-local.rb
-</code></pre></div>    </div>
-    <p>to activate the local server for browsing.</p>
-  </li>
-  <li>Open the browser and go to the link provided by the local server (usually it’s http://127.0.0.1:4000).</li>
-  <li>Browse your custom site!</li>
-</ul>
-
-<h2 id="zotero-fields">Zotero Fields</h2>
-
-<p>MOREL items are added in the same way that items are added in any <a href="https://www.zotero.org/support/adding_items_to_zotero">Zotero library</a>. In its current version, MOREL can only process items of type <code class="language-plaintext highlighter-rouge">book</code>. Since not all the fields needed for MOREL are available for the <code class="language-plaintext highlighter-rouge">book</code> content type, some considerations must be made:</p>
-
-<ul>
-  <li>Excerpt: the fragment from each MOREL record corresponds to the <code class="language-plaintext highlighter-rouge">notes</code> of Zotero (see the <a href="https://www.zotero.org/support/notes">documentation</a> about Zotero notes). In its current version, MOREL <em>only accepts one excerpt per book</em>.</li>
-  <li>Cover: the cover is a jpg file that is added as an <code class="language-plaintext highlighter-rouge">attachment</code> to the Zotero item (see the Zotero attachments <a href="https://www.zotero.org/support/attaching_files">documentation</a>).</li>
-</ul>
 
 
         </div>
