@@ -83,7 +83,7 @@
 
 <p>MOREL also has a <a href="/morel-no-code-generator/search">search engine</a> that allows you to find works directly.</p>
 
-                  <h1 id="build-your-morel-website-from-a-zotero-collection-in-8-simple-steps">Build your MOREL website from a Zotero collection in 8 simple steps</h1>
+                  <h1 id="build-your-morel-website-from-a-zotero-collection-in-9-simple-steps">Build your MOREL website from a Zotero collection in 9 simple steps</h1>
 <ol>
   <li><strong>Check if you have the requirements</strong>
     <ul>
@@ -99,12 +99,19 @@
   </li>
   <li><strong><a href="https://github.com/morelrep/morel-no-code-generator/fork">Fork</a> this repository</strong> — that is, <a href="https://github.com/morelrep/morel-no-code-generator/fork">create a copy</a> in your <a href="https://github.com">GitHub</a> account.</li>
   <li><strong>Go to the <code class="language-plaintext highlighter-rouge">actions</code> tab</strong> and enable workflows.</li>
-  <li><strong>Open <code class="language-plaintext highlighter-rouge">_config.yml</code> and change</strong>:
+  <li><strong>Open <code class="language-plaintext highlighter-rouge">_config.yml</code></strong> and change:
     <ul>
       <li>The <code class="language-plaintext highlighter-rouge">title</code> to your site’s.</li>
       <li>The <code class="language-plaintext highlighter-rouge">tagline</code> to your site’s.</li>
       <li>The <code class="language-plaintext highlighter-rouge">email</code> and/or social media accounts to your site’s.</li>
       <li>The <code class="language-plaintext highlighter-rouge">jotform</code> link (create your free account at https://www.jotform.com/).</li>
+    </ul>
+  </li>
+  <li><strong>Replace or add to <code class="language-plaintext highlighter-rouge">assets/img/tema</code></strong> your preferred:
+    <ul>
+      <li>logo.png</li>
+      <li>pattern.png</li>
+      <li>avatar.png</li>
     </ul>
   </li>
   <li><strong>Go to the <code class="language-plaintext highlighter-rouge">settings</code> tab</strong>, open the <code class="language-plaintext highlighter-rouge">pages</code> section, and select <code class="language-plaintext highlighter-rouge">gh-pages</code> as the branch that will build the site.</li>
@@ -114,14 +121,21 @@
     <p>To add cover images to your MOREL site, follow these steps:</p>
   </li>
   <li>Add a cover image to your item in your Zotero library by dragging it as an attachment</li>
-  <li>Open your terminal in the MOREL folder</li>
-  <li>Create a Python environment using <code class="language-plaintext highlighter-rouge">python3 -m venv assets/env</code></li>
+  <li>Clone the repository in a local folder</li>
+  <li>Create a Python environment from the root of the folder using <code class="language-plaintext highlighter-rouge">python3 -m venv assets/env</code></li>
   <li>Run <code class="language-plaintext highlighter-rouge">source assets/env/bin/activate</code></li>
   <li>Run ```pip install r requirements.txt``</li>
-  <li>Export your library or collection from Zotero as .csv file. Remember to check the “add notes” option to add excerpts.</li>
-  <li>Copy the content of the CSV file in assets/data/books_zotero.csv</li>
-  <li>Run <code class="language-plaintext highlighter-rouge">python3 assets/env/src/morel-generate.py</code></li>
+  <li>Export your library or collection from Zotero as .csv file, and save it as <code class="language-plaintext highlighter-rouge">assets/data/books_zotero.csv</code>. Remember to check the “add notes” option to add excerpts.</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">python3 assets/env/src/morel-generate.py</code>
+    <h1 id="to-add-cover-images-with-no-code">To add cover images with no code</h1>
+    <p>For a MOREL no-code generator with cover images drawn from a Zotero library you can:</p>
+  </li>
 </ol>
+
+<ul>
+  <li><a href="mailto:proyectomorel@gmail.com">Request an invoice</a> for a customized service</li>
+  <li><a href="https://www.addtoany.com/share#url=http%3A%2F%2F127.0.0.1%3A4000%2Fmorel-no-code-generator%2F&amp;title=%7C%20MOREL%20no-code%20website%20generator">Promote this project</a> to find code contributors that help develping this feature.</li>
+</ul>
 
 
         </div>

@@ -193,7 +193,7 @@ ol, ul {
 }
 
 ul ul, ol ul {
-  font-size: 0.95rem;
+  font-size: 1rem;
   margin-left: 1.8rem;
 }
 
@@ -1171,7 +1171,7 @@ input[type=search]:focus {
   flex-basis: calc(100% - 0.001rem);
   max-width: calc(100% - 0.001rem);
   align-self: center;
-  margin-top: calc(-0.5rem - 1%);
+  margin-top: calc(4.5rem - 1%);
 }
 
 .workarround {
@@ -1265,6 +1265,7 @@ input[type=search]:focus {
     min-height: auto;
     position: fixed;
     top: 36%;
+    margin-top: calc(-4.5rem - 1%);
   }
   .workarround {
     flex-basis: 39%;
