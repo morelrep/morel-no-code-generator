@@ -83,15 +83,21 @@
 
 <p>MOREL also has a <a href="/morel-no-code-generator/search">search engine</a> that allows you to find works directly.</p>
 
-                  <h1 id="build-your-morel-website-from-a-zotero-collection-in-7-simple-steps">Build your MOREL website from a Zotero collection in 7 simple steps</h1>
-<ul>
-  <li><strong>Prepare the Zotero Fields</strong> for a MOREL website {#zotero-fields}. MOREL items are added in the same way that items are added in any <a href="https://www.zotero.org/support/adding_items_to_zotero">Zotero library</a>. In its current version, MOREL can only process items of type <code class="language-plaintext highlighter-rouge">book</code>. Since not all the fields needed for MOREL are available for the <code class="language-plaintext highlighter-rouge">book</code> content type, some considerations must be made:
+                  <h1 id="build-your-morel-website-from-a-zotero-collection-in-8-simple-steps">Build your MOREL website from a Zotero collection in 8 simple steps</h1>
+<ol>
+  <li><strong>Check if you have the requirements</strong>
+    <ul>
+      <li>A <a href="https://www.zotero.org/user/register/">Zotero account</a></li>
+      <li>A <a href="https://github.com/signup">GitHub account</a></li>
+    </ul>
+  </li>
+  <li><strong>Prepare the Zotero Fields</strong> for a MOREL website. MOREL items are added in the same way that items are added in any <a href="https://www.zotero.org/support/adding_items_to_zotero">Zotero library</a>. In its current version, MOREL can only process items of type <code class="language-plaintext highlighter-rouge">book</code>. Since not all the fields needed for MOREL are available for the <code class="language-plaintext highlighter-rouge">book</code> content type, some considerations must be made:
     <ul>
       <li>Excerpt: the fragment from each MOREL record corresponds to the <code class="language-plaintext highlighter-rouge">notes</code> of Zotero (see the <a href="https://www.zotero.org/support/notes">documentation</a> about Zotero notes). In its current version, MOREL <em>only accepts one excerpt per book</em>.</li>
       <li>Cover: the cover is a jpg file that is added as an <code class="language-plaintext highlighter-rouge">attachment</code> to the Zotero item (see the Zotero attachments <a href="https://www.zotero.org/support/attaching_files">documentation</a>).</li>
     </ul>
   </li>
-  <li><strong>Fork this repository</strong> — that is, create a copy in your <a href="https://github.com">GitHub</a> account.</li>
+  <li><strong><a href="https://github.com/morelrep/morel-no-code-generator/fork">Fork</a> this repository</strong> — that is, <a href="https://github.com/morelrep/morel-no-code-generator/fork">create a copy</a> in your <a href="https://github.com">GitHub</a> account.</li>
   <li><strong>Go to the <code class="language-plaintext highlighter-rouge">actions</code> tab</strong> and enable workflows.</li>
   <li><strong>Open <code class="language-plaintext highlighter-rouge">_config.yml</code> and change</strong>:
     <ul>
@@ -103,9 +109,19 @@
   </li>
   <li><strong>Go to the <code class="language-plaintext highlighter-rouge">settings</code> tab</strong>, open the <code class="language-plaintext highlighter-rouge">pages</code> section, and select <code class="language-plaintext highlighter-rouge">gh-pages</code> as the branch that will build the site.</li>
   <li><strong>Open the file <code class="language-plaintext highlighter-rouge">_abouts/site-description.md</code></strong> and write a description for your site. The <code class="language-plaintext highlighter-rouge">&lt;!-- more --&gt;</code> line separates what appears in the footer across all pages from the longer description that appears on the <code class="language-plaintext highlighter-rouge">about</code> page only.</li>
-  <li><strong>Generate the content from Zotero</strong> by exporting a collection, subcollection or library as a <code class="language-plaintext highlighter-rouge">csv</code> file, and replacing the content of <code class="language-plaintext highlighter-rouge">assets/data/books_zotero.csv</code></li>
-</ul>
-
+  <li><strong>Generate the content from Zotero</strong> by <a href="https://forums.zotero.org/discussion/5286/can-one-export-a-collection-and-not-the-entire-library">exporting a collection</a>, subcollection or library as a <code class="language-plaintext highlighter-rouge">csv</code> file, and replacing the content of <code class="language-plaintext highlighter-rouge">assets/data/books_zotero.csv</code>.
+    <h1 id="other-features">Other features</h1>
+    <p>To add cover images to your MOREL site, follow these steps:</p>
+  </li>
+  <li>Add a cover image to your item in your Zotero library by dragging it as an attachment</li>
+  <li>Open your terminal in the MOREL folder</li>
+  <li>Create a Python environment using <code class="language-plaintext highlighter-rouge">python3 -m venv assets/env</code></li>
+  <li>Run <code class="language-plaintext highlighter-rouge">source assets/env/bin/activate</code></li>
+  <li>Run ```pip install r requirements.txt``</li>
+  <li>Export your library or collection from Zotero as .csv file. Remember to check the “add notes” option to add excerpts.</li>
+  <li>Copy the content of the CSV file in assets/data/books_zotero.csv</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">python3 assets/env/src/morel-generate.py</code></li>
+</ol>
 
 
         </div>
