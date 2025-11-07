@@ -1,6 +1,9 @@
 {% for about in site.abouts %}
-            {% if about.type == "presentation" && site.title == "MOREL no-code website generator"%}
-              <h1 class="book">{{ about.Title }}</h1>
+            {% if about.type == "presentation" and site.title == "MOREL no-code website generator"%}
+            <div class="row obras obra-suerte">
+            <h2 class="index">Light, minimalistic, optimized for mobile devices</h2>
+        </div>  
+             <h1 class="book">{{ about.Title }}</h1>
                 <div class="obra-dia sombra">
                 <div class="ficha-container" style="">
                     <div class="ficha-title">
@@ -28,6 +31,8 @@
                 {% include about-actions-v_obra-suerte.html %} <!-- need to create this include -->
                 </div>
                 </div>
+              <h1 class="index">Your site has  pre-loaded dynamic samples for your index: </h1>
+
             {% endif %}
 {% endfor %}
 
