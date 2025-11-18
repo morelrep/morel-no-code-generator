@@ -102,9 +102,19 @@
       <li>The <code class="language-plaintext highlighter-rouge">title</code> to your site’s.</li>
       <li>The <code class="language-plaintext highlighter-rouge">tagline</code> to your site’s.</li>
       <li>The <code class="language-plaintext highlighter-rouge">email</code> and/or social media accounts to your site’s.</li>
-      <li>The <code class="language-plaintext highlighter-rouge">jotform</code> link (create your free account at https://www.jotform.com/).</li>
+      <li>The <code class="language-plaintext highlighter-rouge">jotform</code> link (create your free account at https://www.jotform.com/).
+        <blockquote>
+          <p>The Jorform account is to receive contributions from users</p>
+        </blockquote>
+      </li>
     </ul>
   </li>
+  <li><strong>Wait for the site to build</strong>. Go to the <code class="language-plaintext highlighter-rouge">actions</code> tab, and wait for the workflow run to turn green. Sometimes GitHub gets slow. If it takes too long to build, or it fails, wait a couple of hours and edit the <code class="language-plaintext highlighter-rouge">_config.yml</code> file again to trigger the process.</li>
+</ol>
+
+<p><img src="assets/img/tema/workflow.png" alt="alt text" /></p>
+
+<ol>
   <li><strong>Replace or add to <code class="language-plaintext highlighter-rouge">assets/img/tema</code></strong> your preferred:
     <ul>
       <li>logo.png</li>
@@ -112,7 +122,9 @@
       <li>avatar.png</li>
     </ul>
   </li>
-  <li><strong>Go to the <code class="language-plaintext highlighter-rouge">settings</code> tab</strong>, open the <code class="language-plaintext highlighter-rouge">pages</code> section, and select <code class="language-plaintext highlighter-rouge">gh-pages</code> as the branch that will build the site.</li>
+  <li>
+    <p><strong>Go to the <code class="language-plaintext highlighter-rouge">settings</code> tab</strong>, open the <code class="language-plaintext highlighter-rouge">pages</code> section, and select <code class="language-plaintext highlighter-rouge">gh-pages</code> as the branch that will build the site.</p>
+  </li>
   <li><strong>Open the file <code class="language-plaintext highlighter-rouge">_abouts/site-description.md</code></strong> and write a description for your site. The <code class="language-plaintext highlighter-rouge">&lt;!-- more --&gt;</code> line separates what appears in the footer across all pages from the longer description that appears on the <code class="language-plaintext highlighter-rouge">about</code> page only.</li>
   <li><strong>Generate the content from Zotero</strong> by <a href="https://forums.zotero.org/discussion/5286/can-one-export-a-collection-and-not-the-entire-library">exporting a collection</a>, subcollection or library as a <code class="language-plaintext highlighter-rouge">csv</code> file, and replacing the content of <code class="language-plaintext highlighter-rouge">assets/data/books_zotero.csv</code>.
     <h1 id="other-features">Other features</h1>
