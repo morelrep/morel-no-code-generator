@@ -11,14 +11,20 @@
    - The `title` to your site's.
    - The `tagline` to your site's.
    - The `email` and/or social media accounts to your site's.
-   - The `jotform` link (create your free account at https://www.jotform.com/).
-6. **Replace or add to `assets/img/tema`** your preferred:
+   - The `jotform` link (create your free account at https://www.jotform.com/). 
+  > The Jorform account is to receive contributions from users
+6. **Wait for the site to build**. Go to the `actions` tab, and wait for the workflow run to turn green. Sometimes GitHub gets slow. If it takes too long to build, or it fails, wait a couple of hours and edit the `_config.yml` file again to trigger the process.
+
+![alt text](assets/img/tema/workflow.png)
+
+7. **Replace or add to `assets/img/tema`** your preferred:
    - logo.png
    - pattern.png
    - avatar.png
-7. **Go to the `settings` tab**, open the `pages` section, and select `gh-pages` as the branch that will build the site.
-8. **Open the file `_abouts/site-description.md`** and write a description for your site. The `<!-- more -->` line separates what appears in the footer across all pages from the longer description that appears on the `about` page only.
-9. **Generate the content from Zotero** by [exporting a collection](https://forums.zotero.org/discussion/5286/can-one-export-a-collection-and-not-the-entire-library), subcollection or library as a `csv` file, and replacing the content of `assets/data/books_zotero.csv`.
+8. **Go to the `settings` tab**, open the `pages` section, and select `gh-pages` as the branch that will build the site.
+
+9. **Open the file `_abouts/site-description.md`** and write a description for your site. The `<!-- more -->` line separates what appears in the footer across all pages from the longer description that appears on the `about` page only.
+10. **Generate the content from Zotero** by [exporting a collection](https://forums.zotero.org/discussion/5286/can-one-export-a-collection-and-not-the-entire-library), subcollection or library as a `csv` file, and replacing the content of `assets/data/books_zotero.csv`.
 # Other features
 To add cover images to your MOREL site, follow these steps:
 1. Add a cover image to your item in your Zotero library by dragging it as an attachment
