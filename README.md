@@ -1,4 +1,4 @@
-# Build your MOREL website from a Zotero collection in 9 simple steps
+# Build your MOREL website from a Zotero collection in 10 simple steps
 1. **Check if you have the requirements**
   - A [Zotero account](https://www.zotero.org/user/register/)
   - A [GitHub account](https://github.com/signup)
