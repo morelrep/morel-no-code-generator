@@ -13,7 +13,7 @@
    - The `email` and/or social media accounts to your site's.
    - The `jotform` link (create your free account at https://www.jotform.com/). 
   > The Jorform account is to receive contributions from users
-6. **Wait for the site to build**. Go to the `actions` tab, and wait for the workflow run to turn green. Sometimes GitHub gets slow. If it takes too long to build, or it fails, wait a couple of hours and edit the `_config.yml` file again to trigger the process.
+6. **Wait for the site to build**. Go to the `actions` tab, and wait for the workflow icon run to turn green. Sometimes GitHub gets slow. If it takes too long to build, or it fails, wait a couple of hours and edit the `_config.yml` file again to trigger the process.
 
 ![alt text](assets/img/tema/workflow.png)
 
