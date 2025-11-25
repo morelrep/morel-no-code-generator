@@ -47,9 +47,9 @@ collections:
   repositories:
     output: true
     permalink: /repositories/:name
-  chriterias:
+  criterias:
     output: true
-    permalink: /chriteria/:name
+    permalink: /criteria/:name
   abouts:
     output: true
 
