@@ -1,3 +1,3 @@
 ---
-title: San Jose, Costa Rica
+title: San José, Costa Rica
 ---
