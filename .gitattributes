@@ -1,3 +1,11 @@
+# ======================================= #
+# To update or upgrade the your local copy of MOREL, without affecting your customized content, run 
+# `git remote add upstream https://github.com/morelrep/morel-no-code-generator.git`
+# `git fetch upstream`
+# `git merge upstream/main`
+# ======================================= #
+
+
 _about/* merge=ours
 _authors/* merge=ours
 _books/* merge=ours
