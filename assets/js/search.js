@@ -22,7 +22,7 @@
       searchResults.innerHTML = appendString;
     } else {
       // Display a message if no results are found
-searchResults.innerHTML = '<p>Aún esa obra o esa autora no están disponibles. <a href="/morel-no-code-generator/add">Sugiere su incorporación</a></p>';
+searchResults.innerHTML = '<p>That specific work or author is not currently in our collection. <a href="/morel-no-code-generator/add">You can request to add it here</a></p>';
     }
   }
 

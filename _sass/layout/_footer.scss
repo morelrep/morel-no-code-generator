@@ -13,6 +13,16 @@ footer a.morel {
   font-weight: 300;
 }
 
+footer ul {
+
+  list-style: none;
+  padding-left: 0;
+}
+
+footer li {
+  display: inline-block;
+  margin-right: 15px;
+}
 /* 2.0 overrides */
 
 /* footer */
