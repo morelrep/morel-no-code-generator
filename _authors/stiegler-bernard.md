@@ -1,0 +1,3 @@
+---
+title: Stiegler, Bernard
+---

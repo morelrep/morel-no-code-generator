@@ -1,0 +1,3 @@
+---
+title: Bailey, Charles W.
+---

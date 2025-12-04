@@ -1,3 +1,3 @@
 ---
-title: París
+title: Paris
 ---

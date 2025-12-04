@@ -1,0 +1,3 @@
+---
+title: Acord, Sophia Krzys
+---
