@@ -2,6 +2,7 @@
 # sys.path.append('scripts/')
 
 import cleanup_output # delete old content
+import filter_link_attachments # csv-process
 import field_updates # csv-process
 import replace_quotes # csv-process
 import filter_year # csv-process
