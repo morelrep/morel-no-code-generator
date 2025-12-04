@@ -1,0 +1,6 @@
+---
+title: "Empirie in der Literaturwissenschaft"
+key: "PGZB4SJ2"
+author: 
+---
+<div data-schema-version="9"><p>Literaturwissenschaftler wie Geisteswissenschaftler überhaupt grenzen sich häufig von den sogenannten »empirischen Wissenschaften« ab. Dem liegt aber ein verengtes Verständnis von Empirie zu Grunde, hinter das der Sammelband zurückzusetzen versucht. Ausgangspunkt der Beiträge ist eine Auffassung von Literaturwissenschaft als Realwissenschaft: Literarische Texte wie auch ihr historisches Bedingungsgefüge, die sogenannten Kontexte, gelten als empirisch beobachtbare Sachverhalte. Und auch wenn die eigentümliche ästhetische Erfahrung im Mittelpunkt steht, geht es nicht um Metaphysik, sondern um soziale und psychologische Realitäten, die anhand von Quellen rekonstruierbar und deren Gesetzmäßigkeiten interdisziplinär erforschbar sind. ›Empirisch‹ bezeichnet dabei nicht einen bestimmten Satz an Methoden, sondern viel grundsätzlicher den Versuch, Aussagen beobachtungssprachlich zu formulieren und auf diese Weise kritisierbar zu machen – eine Herangehensweise, die Literaturwissenschaftler mit Vertretern anderer Disziplinen teilen und für die es in der Geschichte des Fachs viele Beispiele gibt. Diese Traditionen methodologisch zu reflektieren und fortzusetzen ist das Ziel der hier versammelten Beiträge</p> </div>

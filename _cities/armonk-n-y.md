@@ -1,0 +1,3 @@
+---
+title: Armonk, N.Y.
+---

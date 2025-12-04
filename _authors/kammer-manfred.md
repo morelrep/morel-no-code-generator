@@ -1,0 +1,3 @@
+---
+title: Kammer, Manfred
+---

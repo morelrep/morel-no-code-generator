@@ -1,3 +1,3 @@
 ---
-title: Washington, D.C.
+title: Washington  D.C.
 ---

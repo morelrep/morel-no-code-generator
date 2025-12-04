@@ -1,0 +1,3 @@
+---
+title: Mayer-Schönberger, Viktor
+---

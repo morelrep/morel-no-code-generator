@@ -32,7 +32,7 @@ def process_zotero_csv(input_file, output_file):
     print("-" * 60)
     
     # Read the CSV file
-    with open(input_file, 'r', encoding='utf-8') as infile:
+    with open(input_file, 'r', encoding='utf-8-sig') as infile:
         # Use DictReader to preserve column names
         reader = csv.DictReader(infile)
         fieldnames = reader.fieldnames
@@ -105,7 +105,7 @@ def process_zotero_csv(input_file, output_file):
                 print("-" * 40)
         
         # Write the cleaned CSV
-        with open(output_file, 'w', encoding='utf-8', newline='') as outfile:
+        with open(output_file, 'w', encoding='utf-8-sig', newline='') as outfile:
             writer = csv.DictWriter(outfile, fieldnames=fieldnames)
             writer.writeheader()
             writer.writerows(rows_with_year)
@@ -141,5 +141,4 @@ def main():
     except Exception as e:
         print(f"An error occurred: {str(e)}")
 
-if __name__ == "__main__":
-    main()
+main()
