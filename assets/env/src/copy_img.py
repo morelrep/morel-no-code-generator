@@ -28,7 +28,7 @@ for book in books:
     author = author_array[0]  # Take only the last name of the first author
     unique_id = book[0]  # Fallback for books without authors
     print(f"author_raw='{author_raw}', author='{author}', unique_id='{unique_id}'")
-    author_part = author if len(author) > 2 else unique_id
+    author_part = author if len(author) > 0 else unique_id
 
     # Process the title to generate a shorter, slug-friendly version
     title_split = str(title_raw).split(" ")  # Split the title into words
