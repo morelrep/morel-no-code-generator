@@ -3,6 +3,7 @@
 
 import cleanup_output # delete old content
 import filter_year # csv-process
+import fix_date_format # csv-process
 import filter_link_attachments # csv-process
 import field_updates # csv-process
 import replace_quotes # csv-process
