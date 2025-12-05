@@ -1,3 +1,3 @@
 ---
-title: Baayen, R. Harald
+title: Baayen, R Harald
 ---

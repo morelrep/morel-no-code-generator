@@ -1,3 +1,3 @@
 ---
-title: Cambridge  Mass.
+title: Cambridge, Mass
 ---

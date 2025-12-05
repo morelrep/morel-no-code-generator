@@ -4,7 +4,7 @@ import os
 
 def process_zotero_books():
     input_file = "assets/data/books_zotero.csv"
-    output_file = "assets/data/books_zotero_formatted.csv"
+    output_file = "assets/data/books_zotero.csv"
     
     year_pattern = re.compile(r'^\d{4}$')
     valid_rows = []

@@ -1,3 +1,3 @@
 ---
-title: London; New York
+title: London & New York
 ---
