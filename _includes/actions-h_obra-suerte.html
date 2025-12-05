@@ -1,4 +1,7 @@
-<div class="img-frame">
+<figure class="img-frame">
+    <figcaption>
+        This is a placeholder for the cover of this book. If you know where to find the actual cover, you can contribute it to the project by clicking the plus symbol in the menu or by accessing the Zotero database linked on the footer.
+    </figcaption>
     {% for img in site.data.books %}
     {% if img.Id == book.Id %}
          {% include book-list-url-img_obra-suerte.html %}
@@ -14,4 +17,4 @@
                      </div>
     {% endif %}
      {% endfor %}
- </div>
+</figure>
