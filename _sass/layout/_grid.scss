@@ -75,6 +75,17 @@
   margin-bottom: revert;
 }
 
+.portada {
+  position: relative;
+}
+
+.portada figcaption {
+  margin-top: 22%;
+  position: absolute;
+  text-align: center;
+  margin-left: 3rem;
+}
+
 /*ciudades*/
 .ciudad .ficha-title {
   padding-right: 15.1% !important;
