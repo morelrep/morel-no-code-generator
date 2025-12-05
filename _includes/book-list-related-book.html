@@ -1,6 +1,7 @@
 <!-- if page.author is multiple and book.author is multiple too -->
 {% assign authors_all_page = page.author | split:'; ' %} <!-- convierte los autores de la page en un array -->
-    
+
+{% if page.author %}
 <div class="row obras">
     <h2 class="index">Books by {% for author_raw in authors_all_page | limit: 3 %}
       {% assign author_firstlast = author_raw | split: ', ' %}
@@ -26,5 +27,6 @@
             {% include book-list-base.html %}
         {% endif %}
     {% endfor %}
+{% endif %}
 {% endif %}
 </div>
