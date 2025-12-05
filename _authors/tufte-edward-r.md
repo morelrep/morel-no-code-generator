@@ -1,3 +1,0 @@
----
-title: Tufte, Edward R.
----

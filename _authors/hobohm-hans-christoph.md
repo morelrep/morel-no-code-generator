@@ -1,3 +1,0 @@
----
-title: Hobohm, Hans-Christoph
----

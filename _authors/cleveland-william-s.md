@@ -1,3 +1,0 @@
----
-title: Cleveland, William S.
----

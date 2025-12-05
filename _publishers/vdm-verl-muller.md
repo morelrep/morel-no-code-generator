@@ -1,3 +1,0 @@
----
-title: VDM Verl. Müller
----
