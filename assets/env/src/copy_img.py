@@ -1,7 +1,7 @@
 import shutil
 import os
 import pandas as pd
-from slugify import slugify
+from slugify import slugify # type: ignore
 
 # Create a DataFrame from the CSV file
 data = pd.read_csv("_data/books.csv", sep=',', engine='python', encoding="utf-8").fillna('')
@@ -26,6 +26,9 @@ for book in books:
     authors_array = author_raw.split("; ")  # Split multiple authors by '; '
     author_array = authors_array[0].split(", ")  # Split the first author's name by ', '
     author = author_array[0]  # Take only the last name of the first author
+    unique_id = book[0]  # Fallback for books without authors
+    print(f"author_raw='{author_raw}', author='{author}', unique_id='{unique_id}'")
+    author_part = author if len(author) > 2 else unique_id
 
     # Process the title to generate a shorter, slug-friendly version
     title_split = str(title_raw).split(" ")  # Split the title into words
@@ -34,7 +37,7 @@ for book in books:
 
     # Extract the year and combine it with the title and author to create a unique slug
     year = str(book[2])  # Extract the year column
-    url_raw = f"{title}-{author}-{year}"  # Combine elements into a raw URL string
+    url_raw = f"{title}-{author_part}-{year}"  # Combine elements into a raw URL string
     url = slugify(url_raw)  # Use the slugify library to make it URL-safe
     file_name = f"{url}.jpg"  # Generate the output file name with '.jpg' extension
 
