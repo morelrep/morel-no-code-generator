@@ -16,6 +16,9 @@ default_image = "assets/empty.png"
 if not os.path.exists(default_image):
     raise FileNotFoundError(f"Default image file not found: {default_image}")
 
+# Define punctuation to filter out
+punctuation = ["-", "–", "—", ":", ";", ",", ".", "!", "?"]
+
 # Loop through each row in the CSV file
 for book in books:
     # Extract raw author and title from the book record
@@ -32,6 +35,7 @@ for book in books:
 
     # Process the title to generate a shorter, slug-friendly version
     title_split = str(title_raw).split(" ")  # Split the title into words
+    title_split = [word for word in title_split if word not in punctuation]
     title_short = title_split[:4]  # Take only the first 4 words
     title = "-".join(title_short)  # Join them with hyphens for URL-friendliness
 

@@ -7,6 +7,9 @@ data = pd.read_csv("_data/books.csv", sep=',', engine='python', encoding="utf-8"
 # Set the titles column to a list
 books = data.values.tolist()
 
+# Define punctuation to filter out
+punctuation = ["-", "–", "—", ":", ";", ",", ".", "!", "?"]
+
 # Loop through each name, create .md file, set contents to string
 for book in books:
     # creating the title, uniq id, and author variables
@@ -22,9 +25,11 @@ for book in books:
     author = author_array[0] if author_array[0] else ''
     
     # creating the different components of the url for the title
-    title_raw = str(book[4]) 
-    title_split = title_raw.split(" ")
-    title_short = (title_split[:4])
+    title_raw_str = str(book[4])
+    title_split = title_raw_str.split(" ")
+    # Filter out punctuation-only "words"
+    title_split = [word for word in title_split if word not in punctuation]
+    title_short = title_split[:4]
     title = "-".join(title_short)
     xcrpt = str(book[36])
 
@@ -41,6 +46,6 @@ for book in books:
     file_name = f'_books/{url}.md'	
 
     with open(file_name, 'w', encoding="utf-8") as f:
-        f.write(f'---\ntitle: "{title_raw}"\nkey: "{unique_id}"\nauthor: {author_raw}\n---\n{xcrpt}')
+        f.write(f'---\ntitle: "{title_raw_str}"\nkey: "{unique_id}"\nauthor: {author_raw}\n---\n{xcrpt}')
         f.close()
     print(f'{file_name} saved')
