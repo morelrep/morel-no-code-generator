@@ -1,3 +1,3 @@
 ---
-title: Frankfurt am Main [u.a.]
+title: Frankfurt am Main u.a.
 ---

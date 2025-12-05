@@ -1,3 +1,0 @@
----
-title: Berg, William J.
----

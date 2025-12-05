@@ -1,3 +1,0 @@
----
-title: Andersen, Deborah Lines
----

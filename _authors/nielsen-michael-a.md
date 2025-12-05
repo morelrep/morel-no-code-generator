@@ -1,3 +1,0 @@
----
-title: Nielsen, Michael A
----

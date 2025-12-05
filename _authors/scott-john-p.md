@@ -1,3 +1,0 @@
----
-title: Scott, John P.
----

@@ -1,3 +1,3 @@
 ---
-title: Sage Publications Ltd
+title: SAGE Publications Ltd
 ---
