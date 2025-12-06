@@ -1,26 +1,20 @@
 <figure class="img-frame">
     <figcaption style="margin-top: 22%;">
-        This is a placeholder for the cover of this book.
+        This is a placeholder.
     </figcaption>
-    <figcaption style="margin-top: 26%;">
-        If you know where to find the actual cover,
+    <figcaption style="margin-top: 27%;">
+        Contribute the actual cover
     </figcaption>
-    <figcaption style="margin-top: 30%;">
-        you can contribute it to the project
+    <figcaption style="margin-top: 32%;">
+        by clicking + in the menu
     </figcaption>
-    <figcaption style="margin-top: 34%;">
-        by clicking the plus symbol in the menu
-    </figcaption>
-    <figcaption style="margin-top: 38%;">
-        or by accessing the Zotero database 
-    </figcaption>
-    <figcaption style="margin-top: 42%;">    
-        that is linked on the footer.
+    <figcaption style="margin-top: 37%;">
+        or Z in the footer
     </figcaption>
    {% for book in site.data.books %}
    {%  if book.Id == page.key %}
         {% include book-list-url-img.html %}
-                    <a href="{{ book.Download }}" target="_blank" download><img src="{{ img-url }}" class="responsive" alt="{{ book.Title }}"></a>
+                    <a href="{{ book.Download }}" target="_blank" download><img src="{{ img-url }}" class="responsive" alt="{{ book.Title }}"  style="background-color: {% include colors.html %}"></a>
                     <div class="actions-h">
                         <!-- AddToAny BEGIN -->
                         {% if book.Download != "" and book.Download != nil %} 
