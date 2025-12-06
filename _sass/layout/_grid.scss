@@ -81,8 +81,21 @@
 
 .portada figcaption {
   position: absolute;
-  text-align: center;
-  margin-left: 3rem;
+  font: icon;
+  padding: 0.5rem 1.2rem .8rem 1.2rem;
+  background-image: url("https://www.transparenttextures.com/patterns/bedge-grunge.png");
+  border-radius: 3px;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  box-shadow: 1px;
+  font-weight: bolder;
+  color: black;
+  color: var(--background);
+  opacity: .9;
+}
+
+.portada figcaption:first-child {
+  padding-top: 1.1rem;
 }
 
 /*ciudades*/
