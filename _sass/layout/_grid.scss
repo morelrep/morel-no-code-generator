@@ -74,13 +74,12 @@
 .obra-suerte {
   margin-bottom: revert;
 }
-
+/* caption visible para placeholder */
 .portada {
   position: relative;
 }
 
 .portada figcaption {
-  margin-top: 22%;
   position: absolute;
   text-align: center;
   margin-left: 3rem;
