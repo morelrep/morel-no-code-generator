@@ -1,0 +1,5 @@
+{% for color in site.data.cover-colors %}
+                {%if color.letter == "a" %}
+                {{color.color}}
+                {% endif %}
+                {% endfor %}
