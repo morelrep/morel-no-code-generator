@@ -1,8 +1,20 @@
-<div class="img-frame">
+<figure class="img-frame">
+    <figcaption style="margin-top: 23%;">
+        This is a placeholder.
+    </figcaption>
+    <figcaption style="margin-top: 34%;">
+        Contribute the actual cover
+    </figcaption>
+    <figcaption style="margin-top: 42%;">
+        by clicking + in the menu
+    </figcaption>
+    <figcaption style="margin-top: 50%;">
+        or Z in the footer
+    </figcaption>
    {% for book in site.data.books %}
    {%  if book.Id == page.key %}
         {% include book-list-url-img.html %}
-                    <a href="{{ book.Download }}" target="_blank" download><img src="{{ img-url }}" class="responsive" alt="{{ book.Title }}"></a>
+                    <a href="{{ book.Download }}" target="_blank" download><img src="{{ img-url }}" class="responsive" alt="{{ book.Title }}"  style="background-color: {% include colors_page.html %}; background-image: {% include background.html %};"></a>
                     <div class="actions-h">
                         <!-- AddToAny BEGIN -->
                         {% if book.Download != "" and book.Download != nil %} 
@@ -14,4 +26,4 @@
                     </div>
         {% endif %}
     {% endfor %}
-</div>
+</figure>
