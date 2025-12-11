@@ -14,7 +14,7 @@
     {% for img in site.data.books %}
     {% if img.Id == book.Id %}
          {% include book-list-url-img_obra-suerte.html %}
-                     <a href="{{ img.Download }}" target="_blank" download><img src="{{ img-url }}" class="responsive" alt="{{ img.Title }}" style="background-color: {% include colors_list.html %}; background-image: url(assets/img/tema/carbon-fibre.png);"></a>
+                     <a href="{{ img.Download }}" target="_blank" download><img src="{{ img-url }}" class="responsive" alt="{{ img.Title }}" style="background-color: {% include colors_list.html %}; background-image: {% include background.html %};"></a>
                      <div class="actions-h">
                          <!-- AddToAny BEGIN -->
                          {% if img.Download != "" and img.Download != nil %} 
