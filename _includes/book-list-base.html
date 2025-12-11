@@ -10,7 +10,7 @@
         </div>
     </div>
     <div class="price" style="display:block;">
-        <div class="title">{{ book.Title }}{% include colors_list.html %}<br></div>
+        <div class="title">{{ book.Title }}<br></div>
         <div class="autor">
             {% for author_raw in authors_all | limit: 3 %}
                 {% assign author_firstlast = author_raw | split: ', ' %}
