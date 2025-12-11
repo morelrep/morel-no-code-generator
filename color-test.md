@@ -258,9 +258,9 @@ title: color test
         
         <div class="color-grid">
             <!-- Colors A-I: Mix between color-1 and color-2 -->
-            <div class="color-item" style="background-color: {% include colors.html %};">
+            <div class="color-item" style="background-color: {% include colors_list.html %};">
                 <div class="color-name">
-                {% include colors.html %}
+                {% include colors_list.html %}
                 </div>
                 <div class="color-value">90% Color 1 + 10% Color 2</div>
                 <div class="color-range">
