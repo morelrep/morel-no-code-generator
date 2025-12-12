@@ -1,3 +1,0 @@
----
-title: Cabildo, Caracas (Venezuela).
----
