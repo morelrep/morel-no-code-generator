@@ -74,6 +74,14 @@
 .obra-suerte {
   margin-bottom: revert;
 }
+/* bordes no tan puyudos*/
+
+.basis .container img.image {
+border-radius: 0.5px 2px 2px 0.5px;
+mask-image: url(/morel-no-code-generator/42683_adobe.svg);
+  mask-size: cover;
+}
+
 /* caption visible para placeholder */
 .portada {
   position: relative;
@@ -96,6 +104,13 @@
 
 .portada figcaption:first-child {
   padding-top: 1.1rem;
+}
+
+/* overlay para imagen de portada */
+
+figure img:hover {
+  mask-image: url(/morel-no-code-generator/42683_adobe.svg);
+  mask-size: cover;
 }
 
 /*ciudades*/
