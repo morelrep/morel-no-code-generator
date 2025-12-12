@@ -9,7 +9,7 @@ FOLDERS_TO_CLEAN = [
     os.path.join(BASE_DIR, "_publishers"),
     os.path.join(BASE_DIR, "_repositories"),
     os.path.join(BASE_DIR, "assets/img"),
-    os.path.join(BASE_DIR, "_data"),
+    os.path.join(BASE_DIR, "_data/books.csv"),
 ]
 ZIP_FILE = os.path.join(BASE_DIR, "output.zip")
 
@@ -23,7 +23,7 @@ def delete_generated_files():
                 for file in files:
                     if "tema" in root.split(os.sep):
                         continue  # Skip 'tema' directories
-                    if file not in [".keep", "escape_characters.csv", "Full_CSV_BibTeX_Field_Comparison.csv", "reference.csv", "criteria.csv", "pais.jpg", "trama.png", "trama-5.jpg", "repositorio.jpg", "pais.jpg", "lugar.jpg", "logo.png", "imprenta.png", "edicion.png", "autora.jpg", "agregar.jpg", "+obras.png"]:  # Keep .keep files  # Keep .keep files
+                    if file not in [".keep", "escape_characters.csv", "Full_CSV_BibTeX_Field_Comparison.csv", "reference.csv", "pais.jpg", "trama.png", "trama-5.jpg", "repositorio.jpg", "pais.jpg", "lugar.jpg", "logo.png", "imprenta.png", "edicion.png", "autora.jpg", "agregar.jpg", "+obras.png"]:  # Keep .keep files  # Keep .keep files
                         os.remove(os.path.join(root, file))
                         files_deleted = True
 
