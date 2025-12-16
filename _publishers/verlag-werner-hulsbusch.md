@@ -1,3 +1,0 @@
----
-title: Verlag Werner Hülsbusch
----

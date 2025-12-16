@@ -1,3 +1,0 @@
----
-title: Rettberg, Jill Walker
----

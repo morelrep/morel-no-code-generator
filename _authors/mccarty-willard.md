@@ -1,3 +1,0 @@
----
-title: McCarty, Willard
----

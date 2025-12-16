@@ -1,3 +1,0 @@
----
-title: Tukey, John W
----

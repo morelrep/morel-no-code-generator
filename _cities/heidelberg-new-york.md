@@ -1,3 +1,0 @@
----
-title: Heidelberg; New York
----

@@ -1,0 +1,3 @@
+---
+title: Shoeffer, C. H.
+---

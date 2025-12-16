@@ -1,3 +1,0 @@
----
-title: Earl-Novell, Sarah
----

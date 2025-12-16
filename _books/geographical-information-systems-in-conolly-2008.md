@@ -1,6 +1,0 @@
----
-title: "Geographical Information Systems in archaeology"
-key: "VV3YE4HW"
-author: Conolly, James
----
-Geographical Information Systems has moved from the domain of the computer specialist into the wider archaeological community, providing it with an exciting new research method. This clearly written but rigorous book provides a comprehensive guide to that use. Topics covered include: the theoretical context and the basics of GIS; data acquisition including database design; interpolation of elevation models; exploratory data analysis including spatial queries; statistical spatial analysis; map algebra; spatial operations including the calculation of slope and aspect, filtering and erosion modeling; methods for analysing regions; visibility analysis; network analysis including hydrological modeling; the production of high quality output for paper and electronic publication; and the use and production of metadata. Offering an extensive range of archaeological examples, it is an invaluable source of practical information for all archaeologists, whether engaged in cultural resource management or academic research. This is essential reading for both the novice and the advanced user.

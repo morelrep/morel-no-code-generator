@@ -1,3 +1,0 @@
----
-title: oekom verlag
----

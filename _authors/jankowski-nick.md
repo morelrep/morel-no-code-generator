@@ -1,3 +1,0 @@
----
-title: Jankowski, Nick
----

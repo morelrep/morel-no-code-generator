@@ -1,6 +1,0 @@
----
-title: "Qu'est-ce que la Text Encoding Initiative?"
-key: "XBYXTHI8"
-author: Burnard, Lou
----
-The Text Encoding Initiative (TEI) Guidelines have long been regarded as the de facto standard for the preparation of digital textual resources in the scholarly research community. For the beginner, they offer a daunting range of possibilities, reflecting the huge range of potential applications for text encoding, from traditional scholarly editions, to language corpora, historical lexicons, digital archives and beyond. Drawing on many examples of TEI-encoded text from a variety of research domains, this simple and straightforward book is intended to help the beginner make their own choices from the full range of TEI options. It explains the XML technology used by the TEI in language accessible to the non-technical reader and provides a guided tour of the many parts of the TEI universe, and how it may be customized to suit an individual project’s needs. This work has been produced with the support of Labex Hastec.

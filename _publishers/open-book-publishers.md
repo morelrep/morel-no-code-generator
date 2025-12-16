@@ -1,3 +1,0 @@
----
-title: Open Book Publishers
----

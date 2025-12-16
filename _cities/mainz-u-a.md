@@ -1,3 +1,0 @@
----
-title: Mainz [u.a.]
----

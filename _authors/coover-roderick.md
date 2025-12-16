@@ -1,3 +1,0 @@
----
-title: Coover, Roderick
----

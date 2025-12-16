@@ -1,3 +1,0 @@
----
-title: SAGW-ASSH-ASSM
----

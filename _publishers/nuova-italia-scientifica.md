@@ -1,3 +1,0 @@
----
-title: Nuova Italia scientifica
----

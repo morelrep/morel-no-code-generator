@@ -1,8 +1,0 @@
----
-title: "Crossing Experiences in Digital Epigraphy, From Practice to Discipline"
-key: "JSBJ9J6Q"
-author: De Santis, Annamaria; Rossi, Irene
----
-Although a relevant number of projects digitizing inscriptions are under development or have been recently accomplished, Digital Epigraphy is not yet considered to be a proper discipline and there are still no regular occasions to meet and discuss. By collecting contributions on nineteen projects - very diversified for geographic and chronological context, for script and language, and for typology of digital output - this volume intends to point out the methodological issues which are specific to the application of information technologies to epigraphy.
-The first part of the volume is focused on data modelling and encoding, which are conditioned by the specific features of different scripts and languages, and deeply influence the possibility to perform searches on texts and the approach to the lexicographic study of such under-resourced languages. The second part of the volume is dedicated to the initiatives aimed at fostering aggregation, dissemination and the reuse of epigraphic materials, and to discuss issues of interoperability.
-The common theme of the volume is the relationship between the compliance with the theoretic tools and the methodologies developed by each different tradition of studies, and, on the other side, the necessity of adopting a common framework in order to produce commensurable and shareable results. The final question is whether the computational approach is changing the way epigraphy is studied, to the extent of renovating the discipline on the basis of new, unexplored questions.

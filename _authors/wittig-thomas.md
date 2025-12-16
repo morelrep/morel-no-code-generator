@@ -1,3 +1,0 @@
----
-title: Wittig, Thomas
----

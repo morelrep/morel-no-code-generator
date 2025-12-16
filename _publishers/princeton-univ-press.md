@@ -1,3 +1,0 @@
----
-title: Princeton Univ. Press
----

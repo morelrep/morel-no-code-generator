@@ -1,3 +1,0 @@
----
-title: Janert, Philipp K
----

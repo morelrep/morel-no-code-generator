@@ -1,3 +1,0 @@
----
-title: Lutoslawski, Wincenty
----

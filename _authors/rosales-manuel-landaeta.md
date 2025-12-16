@@ -1,0 +1,3 @@
+---
+title: Rosales, Manuel Landaeta
+---

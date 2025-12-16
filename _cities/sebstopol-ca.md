@@ -1,3 +1,0 @@
----
-title: Sebstopol, CA
----

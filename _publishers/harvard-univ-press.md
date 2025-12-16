@@ -1,3 +1,0 @@
----
-title: Harvard Univ. Press
----

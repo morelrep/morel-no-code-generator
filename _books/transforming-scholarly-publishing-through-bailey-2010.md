@@ -1,6 +1,0 @@
----
-title: "Transforming scholarly publishing through open access: a bibliography"
-key: "IMZW2GH2"
-author: Bailey, Charles W
----
-Can scholarly journal articles and other scholarly works be made freely available on the Internet? The open access movement says "yes," and it is having a significant impact on scholarly publishing. There are two major open access strategies: (1) open access journals publish articles (typically peer-reviewed articles) that are free of charge and may be able to be reused under an open license (e.g., a Creative Commons license), and (2) self-archiving of digital e-prints (typically prepublication versions of articles) by authors in digital repositories, where they can be accessed free of charge and sometimes reused. Transforming Scholarly Publishing through Open Access: A Bibliography, which has over 1,100 references, provides in-depth coverage of published journal articles, books, and other works about the open access movement. Many references have links to freely available copies of included works.

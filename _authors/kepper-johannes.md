@@ -1,3 +1,0 @@
----
-title: Kepper, Johannes
----

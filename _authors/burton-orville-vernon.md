@@ -1,3 +1,0 @@
----
-title: Burton, Orville Vernon
----

@@ -1,3 +1,0 @@
----
-title: Mouton de Gruyter
----

@@ -1,3 +1,0 @@
----
-title: VU University Press
----

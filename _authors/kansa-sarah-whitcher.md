@@ -1,3 +1,0 @@
----
-title: Kansa, Sarah Whitcher
----

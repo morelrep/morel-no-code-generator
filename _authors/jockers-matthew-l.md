@@ -1,3 +1,0 @@
----
-title: Jockers, Matthew L.
----

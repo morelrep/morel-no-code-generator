@@ -1,6 +1,0 @@
----
-title: "The text mining handbook: advanced approaches in analyzing unstructured data"
-key: "7KUZNRWL"
-author: Feldman, Ronen; Sanger, James
----
-Text mining is a new and exciting area of computer science research that tries to solve the crisis of information overload by combining techniques from data mining, machine learning, natural language processing, information retrieval, and knowledge management. Similarly, link detection - a rapidly evolving approach to the analysis of text that shares and builds upon many of the key elements of text mining - also provides new tools for people to better leverage their burgeoning textual data resources. The Text Mining Handbook presents a comprehensive discussion of the state-of-the-art in text mining and link detection. In addition to providing an in-depth examination of core text mining and link detection algorithms and operations, the book examines advanced pre-processing techniques, knowledge representation considerations, and visualization approaches. Finally, the book explores current real-world, mission-critical applications of text mining and link detection in such varied fields as M&A business intelligence, genomics research and counter-terrorism activities.

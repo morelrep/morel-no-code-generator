@@ -1,3 +1,0 @@
----
-title: Gries, Stefan Thomas
----

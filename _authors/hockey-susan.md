@@ -1,3 +1,0 @@
----
-title: Hockey, Susan
----

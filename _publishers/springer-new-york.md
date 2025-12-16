@@ -1,3 +1,0 @@
----
-title: Springer New York
----

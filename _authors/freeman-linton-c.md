@@ -1,3 +1,0 @@
----
-title: Freeman, Linton C.
----

@@ -1,3 +1,0 @@
----
-title: Turkel, William J.
----

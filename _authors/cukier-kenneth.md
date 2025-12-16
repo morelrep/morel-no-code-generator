@@ -1,3 +1,0 @@
----
-title: Cukier, Kenneth
----

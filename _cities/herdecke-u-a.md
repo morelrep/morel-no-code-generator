@@ -1,3 +1,0 @@
----
-title: Herdecke [u.a.]
----

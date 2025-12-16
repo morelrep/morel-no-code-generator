@@ -1,3 +1,0 @@
----
-title: Hoover, David L.
----

@@ -1,3 +1,0 @@
----
-title: Thousand Oaks, CA
----

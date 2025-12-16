@@ -1,3 +1,0 @@
----
-title: Collins, Jeff
----

@@ -1,3 +1,0 @@
----
-title: CSHE, UC Berkeley
----

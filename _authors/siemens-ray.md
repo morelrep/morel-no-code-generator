@@ -1,3 +1,0 @@
----
-title: Siemens, Ray
----

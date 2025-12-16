@@ -1,3 +1,0 @@
----
-title: SAGE Publications Ltd
----

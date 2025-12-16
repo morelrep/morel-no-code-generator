@@ -1,3 +1,0 @@
----
-title: Deuff, Olivier Le
----

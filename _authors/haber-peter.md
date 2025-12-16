@@ -1,3 +1,0 @@
----
-title: Haber, Peter
----

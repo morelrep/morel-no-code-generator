@@ -1,3 +1,0 @@
----
-title: Burnard, Lou
----
