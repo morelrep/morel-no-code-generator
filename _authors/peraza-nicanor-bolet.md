@@ -1,3 +1,0 @@
----
-title: Peraza, Nicanor BOLET
----

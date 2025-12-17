@@ -1,3 +1,3 @@
 ---
-title: Thérou, abbé
+title: Thérou, Abbé
 ---

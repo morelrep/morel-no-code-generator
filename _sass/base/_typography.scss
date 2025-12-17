@@ -119,22 +119,25 @@ h1.index {
   
   }
   
-  h1.list {
+h1.list {
     visibility: hidden;
   }
   
-  h2.index,
-  p.index {
+h2.index,
+p.index {
   
     margin: 1rem;
   }
-  
-  .obras {
+h2.index {
+    font-size: 2.5rem;
+    margin-top: 3.5rem;
+  }
+.obras {
     margin-bottom: 0;
   }
   
   
-  .overlay-text-inside {
+.overlay-text-inside {
    margin: 0 -1rem 1.3rem;
   font-size: 1rem;
   color: var(--background);
@@ -142,22 +145,22 @@ h1.index {
   }
   
   
-  .see-and-download {
+.see-and-download {
     font-size: 1.8rem;
   margin-top: 1.3rem;
   color: var(--background);
   }
   
-  .clear {
+.clear {
     color: transparent;
   }
   
   
-  .overlay {
+.overlay {
     background-color: rgba(0, 0, 0, 0.88);
   }
 
-  ol, ul {
+ol, ul {
     font-size: 1.1rem;
     margin-top: 1rem;
     margin-bottom: 1.2rem;

@@ -1,14 +1,14 @@
-<div class="obra-dia sombra">
+<div class="obra-dia sombra footer-promotion">
             <div class="ficha-container" style="">
                 <div class="ficha-title">
                     <h2>
-                        About {{ site.title}}
+                        Sobre {{ site.title}}
                     </h2>
                 </div>
                 <div class="ficha-extract" style="">
                     {% for about in site.abouts %}
                     {% if about.title == "description" %}
-                    {% if about.lang == "en" %%}
+                    {% if about.lang == "es" %%}
                     {{ about.excerpt }}
                     {% endif %}
                     {% endif %}

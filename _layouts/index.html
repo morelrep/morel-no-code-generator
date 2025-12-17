@@ -30,13 +30,14 @@ layout: default
         </div>
         {% include book-list-translations.html %}
        
-
-        
-
-        <!--No descargables-->
+        <!--Francés-->
         <div class="row obras">
-            <h2 class="index">More books to browse</h2>
+            <h2 class="index">{% if site.lang == "es" %}Algunos libros en francés{% else %}Some books in French{% endif %}</h2>
         </div>
-         {% include book-list-no-download.html %}
-        
-       
+        {% include book-list-fr.html %}
+
+        <!--Alemán-->
+        <div class="row obras">
+            <h2 class="index">{% if site.lang == "es" %}Algunos libros en alemán{% else %}Some books in German{% endif %}</h2>
+        </div>
+        {% include book-list-de.html %}
