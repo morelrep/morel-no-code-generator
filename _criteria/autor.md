@@ -1,5 +1,5 @@
 ---
-layout: page-criteria
+layout: page-criterio
 title: autor
 img: tema/autora.jpg
 ---
