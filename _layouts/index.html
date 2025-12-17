@@ -46,13 +46,4 @@ layout: default
                 {% if site.lang == "es" %}Algunos libros en inglés{% else %}Some books in English{% endif %}</h2>
         </div>
         {% include book-list-en.html %}
-
-        <!--No descargables-->
-        {% if site.no-downloads == true %}
-        <div class="row obras">
-            <h2 class="index">
-                {% if site.lang == "es" %}Más obras para explorar{% else %}More books to browse{% endif %}</h2>
-        </div>
-         {% include book-list-no-download.html %}
-       {% endif %} 
        
