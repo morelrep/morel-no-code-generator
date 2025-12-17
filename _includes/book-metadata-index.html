@@ -9,7 +9,8 @@
       {% unless forloop.last == true %} + {% endunless %}
   {% endfor %}
     //
-     Published in <a href="{{site.BASE_PATH}}/cities/{{ book.Place | slugify:'latin' }}" title="{{ book.Place }}">{{ book.Place }}</a> by <a href="{{site.BASE_PATH}}/publishers/{{ book.Publisher | slugify:'latin' }}" title="{{ book.Publihser }}">{{ book.Publisher }}</a>
+     Published {% if book.Place %}<a href="{{site.BASE_PATH}}/cities/{{ book.Place | slugify:'latin' }}" title="{{ book.Place }}">in {{ book.Place }}</a> {% endif %}
+     by <a href="{{site.BASE_PATH}}/publishers/{{ book.Publisher | slugify:'latin' }}" title="{{ book.Publihser }}">{{ book.Publisher }}</a>
       in {{ book.Date }}{% if book.Edition == book.Date %}. First edtition{% elsif book.Edition != "" and book.Edition != nil %} // First published in {{ book.Edition }}{% endif %} {% if book.Archive != "" and book.Archive != nil  %}//
       Retrieved by <a href="{{site.BASE_PATH}}/repositories/{{ book.Archive | slugify:'latin' }}" title="{{ book.Archive }}">{{ book.Archive }}</a>{% endif %}
 {% endif %}
