@@ -14,36 +14,29 @@ layout: default
 
         <!-- One random book -->
         <div class="row obras obra-suerte">
-            <h2 class="index">
-                {% if site.lang == "es" %}Una obra al azar{% else %}One book by chance{% endif %}</h2>
+            <h2 class="index">{% if site.lang == "es" %}Una obra al azar{% else %}One book by chance{% endif %}</h2>
         </div>
         {% include book-sample.html %}
 
-        <!--Descargables-->
+        <!--Español-->
         <div class="row obras">
-            <h2 class="index">
-                {% if site.lang == "es" %}Algunos libros en español{% else %}Some books in Spanish{% endif %}</h2>
+            <h2 class="index">{% if site.lang == "es" %}Algunos libros en español{% else %}Some books in Spanish{% endif %}</h2>
         </div>
         {% include book-list-es.html %}
 
         <!--Últimas siete traducciones registradas -->        
         <div class="row obras obra-suerte">
-            <h2 class="index">
-                {% if site.lang == "es" %}Algunas traducciones{% else %}Some book translations{% endif %}</h2>
+            <h2 class="index">{% if site.lang == "es" %}Algunas traducciones{% else %}Some book translations{% endif %}</h2>
         </div>
         {% include book-list-translations.html %}
+       
 
-        <!--Francés-->
-        <div class="row obras">
-            <h2 class="index">
-                {% if site.lang == "es" %}Algunos libros en francés{% else %}Some books in French{% endif %}</h2>
-        </div>
-        {% include book-list-fr.html %}
+        
 
-        <!--Inglés-->
+        <!--No descargables-->
         <div class="row obras">
-            <h2 class="index">
-                {% if site.lang == "es" %}Algunos libros en inglés{% else %}Some books in English{% endif %}</h2>
+            <h2 class="index">More books to browse</h2>
         </div>
-        {% include book-list-en.html %}
+         {% include book-list-no-download.html %}
+        
        
