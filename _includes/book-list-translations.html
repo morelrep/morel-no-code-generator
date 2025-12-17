@@ -9,8 +9,15 @@
                 <div class="container">
                     <label for="listas"><img src="{{ site.BASE_PATH }}/assets/img/tema/+obras.png" class="image sombra"></label>
                     <div>
-                        {% assign target = "translations" %}
+                        {% if books.size > 7 %}
+                        {% if site.lang == "es" %}
+                        {% assign target = "traducciones" %}
                         {% include ver-mas.html %}
+                        {% else %}
+                        {% assign target = "translations" %}
+                        {% include see-more.html %}
+                        {% endif %}
+                        {% endif %}
                     </div>
                 </div> 
             </div>

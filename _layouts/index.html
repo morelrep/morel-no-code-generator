@@ -24,7 +24,7 @@ layout: default
             <h2 class="index">
                 {% if site.lang == "es" %}Algunos libros en español{% else %}Some books in Spanish{% endif %}</h2>
         </div>
-        {% include book-list-download.html %}
+        {% include book-list-es.html %}
 
         <!--Últimas siete traducciones registradas -->        
         <div class="row obras obra-suerte">
@@ -40,7 +40,13 @@ layout: default
         </div>
         {% include book-list-fr.html %}
 
-        
+        <!--Inglés-->
+        <div class="row obras">
+            <h2 class="index">
+                {% if site.lang == "es" %}Algunos libros en inglés{% else %}Some books in English{% endif %}</h2>
+        </div>
+        {% include book-list-en.html %}
+
         <!--No descargables-->
         {% if site.no-downloads == true %}
         <div class="row obras">
