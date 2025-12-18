@@ -14,6 +14,7 @@ jotform: https://form.jotform.com/211904785426056
 bsky: morelrep.bsky.social
 mastodon: https://mastodon.social/@morelrep
 lang: es
+biba: true # Set to true if you want to enable Biblioteca Abierta features
 # If you want to change the name of the repo, update the BASE_PATH name. Also, if you are going to use the MOREL repo as your main github page (e.g. `myuser.github.io`) comment this line
 BASE_PATH: /morel-no-code-generator
 

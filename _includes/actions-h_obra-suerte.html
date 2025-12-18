@@ -9,12 +9,15 @@
         by clicking + in the menu
     </figcaption>
     <figcaption style="margin-top: 50%;">
-        or Z in the footer
+        or Z in the footer {{ site.biba}}
     </figcaption>
     {% for img in site.data.books %}
     {% if img.Id == book.Id %}
+        {% assign lores_cover = book.Call_Number %}
+        {% assign fullres_cover = lores_cover | replace: 'frontcover&img=1&zoom=1', 'frontcover&img=1&zoom=4' %}
          {% include book-list-url-img_obra-suerte.html %}
-                     <a href="{{ img.Download }}" target="_blank" download><img src="{{ img-url }}" class="responsive" alt="{{ img.Title }}" style="background-color: {% include colors_list.html %}; background-image: {% include background.html %};"></a>
+                     <a href="{{ img.Download }}" target="_blank" download><img src="
+                        {% if site.biba != true %}{{ img-url }}{% elsif img.Cover == '' or img.Attachment == nil%}{{ fullres_cover }}{% else %}{{ img-url }}{% endif %}" class="responsive" alt="{{ img.Title }}" style="background-color: {% include colors_list.html %}; background-image: {% include background.html %};"></a>
                      <div class="actions-h">
                          <!-- AddToAny BEGIN -->
                          {% if img.Download != "" and img.Download != nil %} 
