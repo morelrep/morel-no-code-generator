@@ -11,7 +11,7 @@ Escrito por
     //
      Publicado{% if book.Place %} en <a href="{{site.BASE_PATH}}/cities/{{ book.Place | slugify:'latin' }}" title="{{ book.Place }}">{{ book.Place }}</a>{% endif %}{% if book.Publisher %}
      por <a href="{{site.BASE_PATH}}/publishers/{{ book.Publisher | slugify:'latin' }}" title="{{ book.Publihser }}">{{ book.Publisher }}</a>{% endif %}
-      en {{ book.Date }}{% if book.Edition == book.Date %}. Primera edición{% elsif book.Edition != "" and book.Edition != nil %} // First published in {{ book.Edition }}{% endif %} {% if book.Archive != "" and book.Archive != nil  %}//
+      en {{ book.Date }}{% if book.Edition == book.Date %}. Primera edición{% elsif book.Edition != "" and book.Edition != nil %} // Publicado por primera vez en {{ book.Edition }}{% endif %} {% if book.Archive != "" and book.Archive != nil  %}//
       Digitalizado por <a href="{{site.BASE_PATH}}/repositories/{{ book.Archive | slugify:'latin' }}" title="{{ book.Archive }}">{{ book.Archive }}</a>{% endif %}
   {% else %}
   Written by 
