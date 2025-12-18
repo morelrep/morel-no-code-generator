@@ -1,4 +1,5 @@
 <figure class="img-frame">
+    {% if site.biba != true %}
     <figcaption style="margin-top: 23%;">
         This is a placeholder.
     </figcaption>
@@ -11,6 +12,7 @@
     <figcaption style="margin-top: 50%;">
         or Z in the footer {{ site.biba}}
     </figcaption>
+    {% endif %}
     {% for img in site.data.books %}
     {% if img.Id == book.Id %}
         {% assign lores_cover = book.Call_Number %}
