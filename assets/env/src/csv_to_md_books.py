@@ -37,7 +37,7 @@ for book in books:
     
     # Use author if available, otherwise use unique_id
     author_part = author if author else unique_id
-    url_raw = title + "-" + author_part + "-" + year
+    url_raw = title + "-" + author_part + "-" + year + "-" + unique_id
     
     url = slugify(url_raw)  # slugify is an imported app
 
