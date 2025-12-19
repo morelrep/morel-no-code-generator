@@ -1,7 +1,3 @@
----
-layout: default
----
-<label for="o">open</label>
 <input class="checker" type="checkbox" id="o" hidden>
 <div class="modal">
     <div class="obra-dia sombra">
@@ -13,7 +9,7 @@ layout: default
           <p class="morel">
             Google Books no permite la recuperación de nuestro patrimonio documental por lotes. La descarga y organización de los archivos (portada y pdf) debe hacerse uno por uno. 
           </p>
-          <p> Aquí puedes descargar tu copia personal <a href=" {{ book.Url }}"><i class="fa fa fa-download" style="font-size: 1.5rem;" aria-hidden="true"></i></a> Pero también puedes contribuir a su preservación a largo plazo de varias formas:
+          <p> Aquí puedes descargar tu copia personal <a href=" {{ book.Download }}"><i class="fa fa fa-download" style="font-size: 1.5rem;" aria-hidden="true"></i></a> Pero también puedes contribuir a su preservación a largo plazo de varias formas:
             <ul>
               <li>
                 <a href="https://www.zotero.org/groups/6350646/bibav/collections/XV92RCHB/items/{{ page.key }}">Agrega tu copia de estos archivos (portada y pdf) al ítem en la biblioteca de BibAV <i class="fa fa-pencil" style="font-size: 1.5rem;" aria-hidden="true"></i></a>.

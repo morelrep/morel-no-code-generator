@@ -1,7 +1,11 @@
  {% for book in site.data.books %}
  {%  if book.Id == page.key %}
-    {% if book.Download != "" and book.Download != nil %} 
+    {% if book.Download contains "books.google.com" %}
+    <label for="o" class="morel"><i class="fa fa-file-pdf-o"></i></label>
+    {% else %}
+    {% unless book.Download == "" or book.Download == nil %}
     <a class="morel" href="{{ book.Download }}" target="_blank" download><i class="fa fa-file-pdf-o"></i></a>
+    {% endunless %}
     {%endif%}
     {% if book.Library != "" and book.Library != nil%}
     <br>

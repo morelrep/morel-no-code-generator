@@ -22,8 +22,12 @@
                         {% if site.biba != true %}{{ img-url }}{% elsif img.Cover == '' or img.Cover == nil and book.Call_Number != '' %}{{ fullres_cover }}{% else %}{{ img-url }}{% endif %}" class="responsive" alt="{{ img.Title }}" style="background-color: {% include colors_list.html %}; background-image: {% include background.html %};"></a>
                     <div class="actions-h">
                         <!-- AddToAny BEGIN -->
-                        {% if book.Download != "" and book.Download != nil %} 
+                        {% if book.Download contains "books.google.com" %}
+                        <label for="o" class="morel"><i class="fa fa-file-pdf-o"></i></label>
+                        {% else %}
+                        {% unless book.Download == "" or book.Download == nil %}
                         <a class="morel" href="{{ book.Download }}" target="_blank" download><i class="fa fa-file-pdf-o"></i></a>
+                        {% endunless %}
                         {%endif%}
                         {% if book.Library != "" and book.Library != nil%}
                         <a class="morel" href="{{ book.Library }}"><i class="fa fa-book"></i></a>
