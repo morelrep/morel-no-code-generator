@@ -24,7 +24,7 @@
               </li>
               <br>
               <li>
-                <a class="morel a2a_dd" href="https://www.addtoany.com/share"></a>Comparte este proyecto con tus amigos e invita a más personas a contribuir<i class="fa fa-share-alt" style="font-size: 1.5rem;"><script async src="https://static.addtoany.com/menu/page.js"></script>
+                <a class="morel a2a_dd" href="https://www.addtoany.com/share">Comparte este proyecto con tus amigos e invita a más personas a contribuir<i class="fa fa-share-alt" style="font-size: 1.8rem;"><script async src="https://static.addtoany.com/menu/page.js"></script>
                 </i></a>
               </li>
               <br>
@@ -38,31 +38,39 @@
         </div>
       </div>
       <div class="portada" style="">
-        <figure class="img-frame"> <!--sustituir por campo dinámico--><a
-            href="https://books.google.com/books/download/a_bonpland_apuntes_biograficos_leidos_en_la_sesion_de_22_de_noviembre_de_1869_de_la_sociedad_de_cien.pdf?id=kN5ZAAAAcAAJ&output=pdf"
-            target="_blank" download><!--fin del campo dinámico--><!--sustituir por campo dinámico--><img
-              src="http://books.google.com/books/content?id=kN5ZAAAAcAAJ&printsec=frontcover&img=1&zoom=4&edge=curl&source=gbs_api"
-              class="responsive" alt=""
-              style="background-color:color-mix(in srgb, var(--color-1) 90%, var(--color-2) 10%); background-image: url(/morel-no-code-generator/assets/img/tema/micro-carbon.png);"><!--fin del campo dinámico--></a>
+        <figure class="img-frame">
+      {% for book in site.data.books %}
+      {%  if book.Id == page.key %}
+            {% assign lores_cover = book.Call_Number %}
+            {% assign fullres_cover = lores_cover | replace: 'frontcover&img=1&zoom=1', 'frontcover&img=1&zoom=4' %}
+            {% include book-list-url-img.html %}
+                    <a href="{{ book.Download }}" target="_blank" download><img src="
+                        {% if site.biba != true %}{{ img-url }}{% elsif img.Cover == '' or img.Cover == nil and book.Call_Number != '' %}{{ fullres_cover }}{% else %}{{ img-url }}{% endif %}" class="responsive" alt="{{ img.Title }}" style="background-color: {% include colors_list.html %}; background-image: {% include background.html %};"></a>
           <div class="actions-h">
-            <a href=" {{ book.Url }}"><i class="fa fa fa-download" aria-hidden="true"></i></a>
-            <a class="morel" href="https://www.zotero.org/groups/6350646/bibav/collections/XV92RCHB/items/{{ page.key }}"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+            <a href=" {{ book.Download }}"><i class="fa fa fa-download" aria-hidden="true"></i></a>
+            <a class="morel" href="{{ site.zot-item }}{{page.key}}"><i class="fa fa-pencil" aria-hidden="true"></i></a>
             <a href="{{ BASE_PATH }}/tienda" class="morel"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
             <label for="o" class="morel"><i class="fa fa-window-close-o"></i></label>
           </div>
+      {% endif %}
+      {% endfor %}
         </figure>
       </div>
-      <div class="actions-v"> 
-        <a href=" {{ book.Url }}"><i class="fa fa fa-download" style="font-size: 1.5rem;" aria-hidden="true"></i></a>
+      <div class="actions-v">
+      {% for book in site.data.books %}
+      {%  if book.Id == page.key %}
+        <a href=" {{ book.Download }}"><i class="fa fa fa-download" style="font-size: 1.5rem;" aria-hidden="true"></i></a>
         <br>
         <br>
-        <a class="morel" href="https://www.zotero.org/groups/6350646/bibav/collections/XV92RCHB/items/{{ page.key }}"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+        <a class="morel" href="{{ site.zot-item }}{{page.key}}"><i class="fa fa-pencil" aria-hidden="true"></i></a>
         <br>
         <br>
         <a href="{{ BASE_PATH }}/tienda" class="morel"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
         <br>
         <br>
         <label for="o" class="morel"><i class="fa fa-window-close-o"></i></label>
+      {% endif %}
+      {% endfor %}
       </div>
     </div>
   </div>
