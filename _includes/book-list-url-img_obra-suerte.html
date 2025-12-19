@@ -6,5 +6,5 @@
 
 
 {% capture img-url %}
-	{{site.BASE_PATH}}/assets/img/{{ title_raw[0] | slugify:"latin" }}{% if title_raw[1] %}-{{ title_raw[1] | slugify:"latin" }}{% endif %}{% if title_raw[2] %}-{{ title_raw[2] | slugify:"latin" }}{% endif %}{% if title_raw[3] %}-{{ title_raw[3] | slugify:"latin" }}{% endif %}-{{ author | slugify:"latin"}}-{{ book.Date }}.jpg
+	{{site.BASE_PATH}}/assets/img/{{ title_raw[0] | slugify:"latin" }}{% if title_raw[1] %}-{{ title_raw[1] | slugify:"latin" }}{% endif %}{% if title_raw[2] %}-{{ title_raw[2] | slugify:"latin" }}{% endif %}{% if title_raw[3] %}-{{ title_raw[3] | slugify:"latin" }}{% endif %}-{{ author | slugify:"latin"}}-{{ book.Date }}-{{ book.Id | slugify:"latin" | downcase }}.jpg
 {% endcapture %}

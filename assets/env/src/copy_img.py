@@ -41,7 +41,7 @@ for book in books:
 
     # Extract the year and combine it with the title and author to create a unique slug
     year = str(book[2])  # Extract the year column
-    url_raw = f"{title}-{author_part}-{year}"  # Combine elements into a raw URL string
+    url_raw = f"{title}-{author_part}-{year}-{unique_id}"  # Combine elements into a raw URL string
     url = slugify(url_raw)  # Use the slugify library to make it URL-safe
     file_name = f"{url}.jpg"  # Generate the output file name with '.jpg' extension
 
