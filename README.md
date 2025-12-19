@@ -1,43 +1,26 @@
-# Build your MOREL website from a Zotero collection in 10 simple steps
-1. **Check if you have the requirements**
-  - A [Zotero account](https://www.zotero.org/user/register/)
-  - A [GitHub account](https://github.com/signup)
-2. **Prepare the Zotero Fields** for a MOREL website. MOREL items are added in the same way that items are added in any [Zotero library](https://www.zotero.org/support/adding_items_to_zotero). In its current version, MOREL can only process items of type `book`. Since not all the fields needed for MOREL are available for the `book` content type, some considerations must be made:
-  - Excerpt: the fragment from each MOREL record corresponds to the `notes` of Zotero (see the [documentation](https://www.zotero.org/support/notes) about Zotero notes). In its current version, MOREL *only accepts one excerpt per book*.
-  - Cover: the cover is a jpg file that is added as an `attachment` to the Zotero item (see the Zotero attachments [documentation](https://www.zotero.org/support/attaching_files)).
-3. **[Fork](https://github.com/morelrep/morel-no-code-generator/fork) this repository** — that is, [create a copy](https://github.com/morelrep/morel-no-code-generator/fork) in your [GitHub](https://github.com) account.
-4. **Go to the `actions` tab** and enable workflows.
-5. **Open `_config.yml`** and change:
-   - The `title` to your site's.
-   - The `tagline` to your site's.
-   - The `email` and/or social media accounts to your site's.
-   - The `jotform` link (create your free account at https://www.jotform.com/). 
-  > The Jorform account is to receive contributions from users
-6. **Wait for the site to build**. Go to the `actions` tab, and wait for the workflow icon run to turn green. Sometimes GitHub gets slow. If it takes too long to build, or it fails, wait a couple of hours and edit the `_config.yml` file again to trigger the process.
+## Una versión menos corta
 
-![alt text](assets/img/tema/workflow.png)
+Cuando las herramientas de acceso al conocimiento son controladas por intereses privados, el dominio público se resiente. La Biblioteca Abierta Venezolana (BibAV) nace de la necesidad de reapropiarse técnicamente de ese patrimonio, combinando plataformas abiertas para crear una biblioteca digital móvil, resiliente y al servicio de la comunidad.
 
-7. **Replace or add to `assets/img/tema`** your preferred:
-   - logo.png
-   - pattern.png
-   - avatar.png
-8. **Go to the `settings` tab**, open the `pages` section, and select `gh-pages` as the branch that will build the site.
+A principios de siglo, Google (hoy Alphabet) hizo un acuerdo con algunas de las bibliotecas más grandes de Usamérica y Europa. La promesa fue más o menos la misma que hoy se lee en el folio corporativo que antecede todas las obras que ([con dificultades significativas]({{LINK}})) pueden consultarse en su base de datos: “digitalizar los materiales... a fin de hacerlos accesibles a todo el mundo” [@Google pp].
 
-9. **Open the file `_abouts/site-description.md`** and write a description for your site. The `<!-- more -->` line separates what appears in the footer across all pages from the longer description that appears on the `about` page only.
-10. **Generate the content from Zotero** by [exporting a collection](https://forums.zotero.org/discussion/5286/can-one-export-a-collection-and-not-the-entire-library), subcollection or library as a `csv` file, and replacing the content of `assets/data/books_zotero.csv`.
-# Other features
-To add cover images to your MOREL site, follow these steps:
-1. Add a cover image to your item in your Zotero library by dragging it as an attachment
-2. Clone the repository in a local folder
-3. Create a Python environment from the root of the folder using ```python3 -m venv assets/env```
-4. Run ```source assets/env/bin/activate```
-5. Run ```pip install r requirements.txt``
-6. Export your library or collection from Zotero as .csv file, and save it as `assets/data/books_zotero.csv`. Remember to check the "add notes" option to add excerpts.
-7. Run ```python3 assets/env/src/morel-generate.py```
-8. Commit your changes **adding ```[skip ci]``` to the commit message**.
-9. Push your changes to GitHub.
-# To add cover images with no code
-For a MOREL no-code generator with cover images drawn from a Zotero library you can:
+El proyecto incluía obras con los derechos de autor vigentes, lo cual generó demandas millonarias de autores y editoriales. Google llegó a arreglos comerciales con estos, y el negocio terminó teniendo la consecuencia irónica que señala Robert Darnton: “las bibliotecas de investigación que suministraron originalmente los libros a Google, sin costo alguno, tendrán que comprar el acceso a las copias digitales de los mismos libros, a un precio que Google determinará” [@Darnton 10].
 
-- [Request an invoice](mailto:proyectomorel@gmail.com) for a customized service
-- [Promote this project](https://www.addtoany.com/share#url=http%3A%2F%2F127.0.0.1%3A4000%2Fmorel-no-code-generator%2F&title=%7C%20MOREL%20no-code%20website%20generator) to find code contributors that help develping this feature.
+A contrapelo de la promesa de acceso universal con que se promocionó, el proyecto Google Books terminó siendo una expropiación monumental del trabajo de preservación y organización llevado a cabo por archivistas y bibliotecarios durante siglos. Las versiones digitales en Google Books, si bien son “testimonio del largo viaje que el libro ha recorrido desde el editor hasta la biblioteca y, finalmente, hasta usted” [@Google pp], lo son en función de los intereses corporativos de este gigante de la tecnología, y no del interés por la circulación del conocimiento que anima la vida de las bibliotecas.
+
+Pero en la transacción ejecutada por Google Books las bibliotecas no fueron las que llevaron la peor parte. Fueron en realidad el público y lo público, que es a lo que estas se abocan. Específicamente las obras de dominio público, que como afirma la corporación “son nuestras puertas hacia el pasado, [y] suponen un patrimonio histórico, cultural y de conocimientos que, a menudo, resulta difícil de descubrir” [@Google pp]. A cambio de las enormes ventajas que trajo Google Books para Alphabet {{Source}}, las dificultades de acceso debieron haberse eliminado o reducido a su mínima expresión, pero este no es el caso: las [múltiples capas de dificultad y mal funcionamiento de la herramienta]({{LINK}}) suponen nuevas “puertas” que separan al público del patrimonio documental que Google acumula.
+
+La Biblioteca Abierta Venezolana (BibAV) es un esfuerzo por abrir las puertas que pone Alphabet para acceder al “patrimonio histórico, cultural y de conocimientos” que reúnen los materiales impresos venezolanos en el dominio público, centralizados por Alphabet tras siglos de preservación en bibliotecas de Europa y Usamérica.
+
+Para esto combina los datos de Wikidata, la API de Google Books, la plataforma Zotero y MOREL: una caja de herramientas para hacer bibliotecas móviles, abiertas y resilientes (Mobile, Open, Resilient, Electronic Libraries). Estas incluyen:
+
+1. una plantilla web ligera, usable e intuitiva, que permite acceder a datos enlazados a usuarios sin experiencia;
+2. una serie de scripts para generar colecciones digitales a partir de colecciones bibliográficas de Zotero;
+3. una serie de scripts para compensar las deficiencias y limitaciones de la API de Google Books.
+
+Estas herramientas están abiertas y a disposición para reproducir el modelo en otros corpus. La plataforma también está abierta a contribuciones de los usuarios, que pueden incluir:
+
+* Traducciones
+* Edición o “curación de contenidos”
+* Programación
+* Donaciones y compras de productos promocionales
