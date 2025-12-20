@@ -59,10 +59,10 @@
       <div class="actions-v">
       {% for book in site.data.books %}
       {%  if book.Id == page.key %}
-        <a href=" {{ book.Download }}"><i class="fa fa fa-download" style="font-size: 1.5rem;" aria-hidden="true"></i></a>
+        <a href=" {{ book.Download }}" target="_blank"><i class="fa fa fa-download" style="font-size: 1.5rem;" aria-hidden="true"></i></a>
         <br>
         <br>
-        <a class="morel" href="{{ site.zot-item }}{{page.key}}"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+        <a class="morel" href="{{ site.zot-item }}{{page.key}}" target="_blank"><i class="fa fa-pencil" aria-hidden="true"></i></a>
         <br>
         <br>
         <a href="{{ BASE_PATH }}/tienda" class="morel"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
