@@ -1,13 +1,19 @@
 ---
 layout: default
 ---
-        <h1 class="index">{{ site.tagline }}</h1>
-        
        
 
+        <h1 class="index">{{ site.tagline }}</h1>
+        
         <!--Búsqueda-->
         <a href="buscar"><div class="search-index"><i class="fa fa-search" aria-hidden="true" class="search-index"></i></div></a>
         
+        
+        <div class="row obras">
+        <h2 class="index">Listas dinámicas por:</h2>
+        </div>
+        {% include criterios.html %}
+       
         <!-- Presentación del proyecto -->
         {% include project-presentation.html %}
 
