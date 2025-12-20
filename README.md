@@ -1,26 +1,30 @@
-## Una versión menos corta
+# Contexto institucional y condiciones de acceso
 
-Cuando las herramientas de acceso al conocimiento son controladas por intereses privados, el dominio público se resiente. La Biblioteca Abierta Venezolana (BibAV) nace de la necesidad de reapropiarse técnicamente de ese patrimonio, combinando plataformas abiertas para crear una biblioteca digital móvil, resiliente y al servicio de la comunidad.
+### 1. Google y las bibliotecas del Norte Global
 
-A principios de siglo, Google (hoy Alphabet) hizo un acuerdo con algunas de las bibliotecas más grandes de Usamérica y Europa. La promesa fue más o menos la misma que hoy se lee en el folio corporativo que antecede todas las obras que ([con dificultades significativas]({{LINK}})) pueden consultarse en su base de datos: “digitalizar los materiales... a fin de hacerlos accesibles a todo el mundo” [@Google pp].
+A principios de siglo, Google (hoy Alphabet) estableció un acuerdo con bibliotecas del Norte Global con el objetivo declarado de “digitalizar los materiales… a fin de hacerlos accesibles a todo el mundo” [@Google pp]. El proyecto entró en conflicto con los derechos de propiedad intelectual de autores y consorcios editoriales, conflicto que Google resolvió mediante arreglos comerciales. Como resultado, en algunos casos “las bibliotecas de investigación que suministraron originalmente los libros a Google, sin costo alguno" tuvieron que "comprar el acceso a las copias digitales de los mismos librosá” [@Darnton 10].
 
-El proyecto incluía obras con los derechos de autor vigentes, lo cual generó demandas millonarias de autores y editoriales. Google llegó a arreglos comerciales con estos, y el negocio terminó teniendo la consecuencia irónica que señala Robert Darnton: “las bibliotecas de investigación que suministraron originalmente los libros a Google, sin costo alguno, tendrán que comprar el acceso a las copias digitales de los mismos libros, a un precio que Google determinará” [@Darnton 10].
+### 2. Google Books y el trabajo bibliotecario
 
-A contrapelo de la promesa de acceso universal con que se promocionó, el proyecto Google Books terminó siendo una expropiación monumental del trabajo de preservación y organización llevado a cabo por archivistas y bibliotecarios durante siglos. Las versiones digitales en Google Books, si bien son “testimonio del largo viaje que el libro ha recorrido desde el editor hasta la biblioteca y, finalmente, hasta usted” [@Google pp], lo son en función de los intereses corporativos de este gigante de la tecnología, y no del interés por la circulación del conocimiento que anima la vida de las bibliotecas.
+El desarrollo de Google Books se apartó de la promesa inicial de acceso universal y derivó en la apropiación del trabajo de preservación y organización realizado históricamente por archivistas y bibliotecarios. Las versiones digitales disponibles en Google Books constituyen un “testimonio del largo viaje que el libro ha recorrido desde el editor hasta la biblioteca y, finalmente, hasta usted” [@Google pp]; sin embargo, este testimonio se articula en función de los intereses corporativos de Alphabet y no de los principios de acceso y circulación del conocimiento propios de las bibliotecas.
 
-Pero en la transacción ejecutada por Google Books las bibliotecas no fueron las que llevaron la peor parte. Fueron en realidad el público y lo público, que es a lo que estas se abocan. Específicamente las obras de dominio público, que como afirma la corporación “son nuestras puertas hacia el pasado, [y] suponen un patrimonio histórico, cultural y de conocimientos que, a menudo, resulta difícil de descubrir” [@Google pp]. A cambio de las enormes ventajas que trajo Google Books para Alphabet {{Source}}, las dificultades de acceso debieron haberse eliminado o reducido a su mínima expresión, pero este no es el caso: las [múltiples capas de dificultad y mal funcionamiento de la herramienta]({{LINK}}) suponen nuevas “puertas” que separan al público del patrimonio documental que Google acumula.
+### 3. Google Books y el dominio público
 
-La Biblioteca Abierta Venezolana (BibAV) es un esfuerzo por abrir las puertas que pone Alphabet para acceder al “patrimonio histórico, cultural y de conocimientos” que reúnen los materiales impresos venezolanos en el dominio público, centralizados por Alphabet tras siglos de preservación en bibliotecas de Europa y Usamérica.
+En esta configuración, el impacto recayó sobre las obras de dominio público. Estas, que la propia corporación describe como “nuestras puertas hacia el pasado” y como un “patrimonio histórico, cultural y de conocimientos” de "difícil descubrimiento" [@Google pp], quedaron sujetas a nuevas restricciones de acceso, que se articulan como disfunciones de la API y restricciones programáticas. Dadas las ventajas obtenidas por Alphabet a partir de Google Books {{Source}}, estas "dificultades" debieron haberse eliminado o reducido al mínimo. No obstante, las [múltiples capas de dificultad y mal funcionamiento de la herramienta]({{LINK}}) operan como mecanismos adicionales que limitan el acceso al patrimonio documental centralizado por la empresa.
 
-Para esto combina los datos de Wikidata, la API de Google Books, la plataforma Zotero y MOREL: una caja de herramientas para hacer bibliotecas móviles, abiertas y resilientes (Mobile, Open, Resilient, Electronic Libraries). Estas incluyen:
+### 4. BibAV y el acceso al dominio público venezolano
 
-1. una plantilla web ligera, usable e intuitiva, que permite acceder a datos enlazados a usuarios sin experiencia;
-2. una serie de scripts para generar colecciones digitales a partir de colecciones bibliográficas de Zotero;
-3. una serie de scripts para compensar las deficiencias y limitaciones de la API de Google Books.
+La Biblioteca Abierta Venezolana (BibAV) interviene para modificar la corelación de fuerzas entre centralización corporativa y acceso al conocimiento, empleando una serie de *workarounds* técnicos para que los usuarios puedan acceder al corpus disponible sin enfrentar las limitaciones que impone Alphabet. Su objetivo es facilitar la apropiación del patrimonio histórico, cultural y de conocimientos contenido en los materiales impresos venezolanos en dominio público, hoy centralizados por Alphabet tras siglos de preservación en bibliotecas de Europa y Usamérica.
 
-Estas herramientas están abiertas y a disposición para reproducir el modelo en otros corpus. La plataforma también está abierta a contribuciones de los usuarios, que pueden incluir:
+### 5. Infraestructura técnica de BibAV
 
-* Traducciones
-* Edición o “curación de contenidos”
-* Programación
-* Donaciones y compras de productos promocionales
+BibAV articula su intervención mediante la combinación de datos de Wikidata, la API de Google Books, la plataforma Zotero y MOREL, una caja de herramientas para el desarrollo de bibliotecas móviles, abiertas y resilientes (Mobile, Open, Resilient, Electronic Libraries). Esta infraestructura se concreta en los siguientes componentes:
+
+1. una plantilla web ligera, usable e intuitiva, orientada al acceso a datos enlazados y metadatos por parte de usuarios no especializados;
+2. una lista dinámica de Wikidata, que incluye a los autores de ciudadanía venezolana fallecidos antes de la fecha que dicta la norma de dominio público para el país, que contempla 60 años tras la muerte del autor
+3. un conjunto de scripts destinados a compensar las deficiencias y limitaciones de la API de Google Books;
+4. un conjunto de scripts para generar colecciones digitales a partir de colecciones bibliográficas de Zotero.
+
+### 6. Reproducibilidad y contribuciones
+
+Las herramientas desarrolladas son abiertas y permiten la reproducción del modelo en otros corpus. La plataforma admite contribuciones de los usuarios, que pueden incluir traducciones, edición o curación de contenidos, programación, así como donaciones y compras de productos promocionales.
