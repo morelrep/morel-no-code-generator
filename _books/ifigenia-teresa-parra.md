@@ -12,6 +12,7 @@ img: Ifigenia-teresa_de_la_parra-MOREL.jpg
 descarga: https://ia601400.us.archive.org/22/items/ifigenia/ifigenia.pdf
 comprar: https://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=morelcoop-20&keywords=ifigenia teresa de la parra&index=aps&camp=1789&creative=9325&linkCode=ur2&linkId=7034d7a3080eeafb6967713485d7a51e
 periodo: "Siglo XX"
+nacionalidad: Venezuela
 ---
  
 

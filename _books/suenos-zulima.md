@@ -15,6 +15,7 @@ biblioteca: http://www.worldcat.org/oclc/1037870138
 comprar: https://amzn.to/3iGQO0H
 periodo: "Siglo XIX"
 genre: poetry
+nacionalidad: Venezuela
 ---
  
 Y es natural, mi vida se desliza 

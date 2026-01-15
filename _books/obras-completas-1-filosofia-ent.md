@@ -12,6 +12,7 @@ repurl: http://www.cervantesvirtual.com
 img: Andrés_Bello-obras_completas_tomo_1_filosodia-MOREL.jpg
 descarga: https://ia601506.us.archive.org/4/items/andres-bello-filosofia-del-emtendimiento-tomo-1-morel/Andres_Bello_Filosofia_del_Emtendimiento_Tomo_1-MOREL.pdf
 periodo: "Siglo XIX"
+nacionalidad: Venezuela
 ---
  
 

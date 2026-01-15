@@ -14,6 +14,7 @@ img: Alejandro_de_Humboldt-Viaje_regiones_equinocciales-3_MOREL.jpg
 descarga: https://ia601400.us.archive.org/16/items/alejandro-humbolt-viaje-a-las-regiones-equinocciales-tomo-3/Alejandro_Humbolt_viaje_a_las_regiones_equinocciales_tomo_3.pdf
 comprar: https://www.amazon.com/gp/product/0259091774/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=0259091774&linkCode=as2&tag=morelcoop-20&linkId=d10b5938883e3facb1bf2fc781904693
 periodo: "Siglo XIX"
+nacionalidad: Venezuela
 ---
  
 

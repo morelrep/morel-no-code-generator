@@ -15,6 +15,7 @@ biblioteca: http://www.worldcat.org/oclc/488513072
 comprar: 
 periodo: "Siglo XIX"
 genre: poetry
+nacionalidad: Venezuela
 ---
  
 

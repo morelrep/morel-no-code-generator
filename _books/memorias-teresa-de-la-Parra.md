@@ -12,6 +12,7 @@ img: memorias_de_mama_blanca-teresa_de_la_parra-MOREL.jpg
 descarga: https://ia601403.us.archive.org/17/items/memorias_de_mama_blanca_teresa_de_la_parra/memorias_de_mama_blanca_teresa_de_la_parra.pdf
 tag: "Siglo XX"
 comprar: https://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=morelcoop-20&keywords=teresa de la parra&index=aps&camp=1789&creative=9325&linkCode=ur2&linkId=c4fabeb52a0733909a727b93373bf37c
+nacionalidad: Venezuela
 ---
  
 

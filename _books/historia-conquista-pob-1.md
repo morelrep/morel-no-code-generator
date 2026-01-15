@@ -12,6 +12,7 @@ img: jose_de_oviedo_y_banos_historia_de_la_conquista_y_poblacion_de_la_provincia
 comprar: https://www.amazon.com/gp/search/ref=as_li_qf_sp_sr_tl?ie=UTF8&tag=morelcoop-20&keywords=jose de oviedo y baños&index=aps&camp=1789&creative=9325&linkCode=ur2&linkId=774ebb03e66034774f16c9ab04274373
 descarga: https://ia601405.us.archive.org/2/items/jose_de_oviedo_y_banos_historia_de_la_conquista_y_poblacion_de_la_provincia_de_venezuela_tomo_1_MOREL/jose_de_oviedo_y_banos_historia_de_la_conquista_y_poblacion_de_la_provincia_de_venezuela_tomo_1_MOREL.pdf
 periodo: "Colonial"
+nacionalidad: Venezuela
 ---
  
 
