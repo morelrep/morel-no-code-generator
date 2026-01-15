@@ -27,7 +27,7 @@ La narcótica esencia de la Habana,
 Y saboreo en rica porcelana
  
 Amargo el néctar de la Arabia ardiente;
- 
+
  
 Un dios se agita en mi abrasada frente
  
