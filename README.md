@@ -25,6 +25,10 @@ BibAV articula su intervención mediante la combinación de datos de Wikidata, l
 3. un conjunto de scripts destinados a compensar las deficiencias y limitaciones de la API de Google Books;
 4. un conjunto de scripts para generar colecciones digitales a partir de colecciones bibliográficas de Zotero.
 
-### 6. Reproducibilidad y contribuciones
+### 6. Complementariedad y ampliación del corpus digital
+
+Además de recuperar y redistribuir el patrimonio documental venezolano centralizado por Google Books, BibAV actúa sobre los vacíos estructurales que dicha colección presenta. La plataforma incorpora, enlaza y respalda obras provenientes de otros repositorios públicos y comunitarios —bibliotecas digitales, archivos institucionales y colecciones independientes— que no han sido integrados o han sido excluidos del ecosistema de Alphabet, ampliando así el alcance y la densidad del corpus accesible en dominio público.
+
+### 7. Reproducibilidad y contribuciones
 
 Las herramientas desarrolladas son abiertas y permiten la reproducción del modelo en otros corpus. La plataforma admite contribuciones de los usuarios, que pueden incluir traducciones, edición o curación de contenidos, programación, así como donaciones y compras de productos promocionales.
