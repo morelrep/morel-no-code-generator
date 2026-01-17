@@ -1,0 +1,6 @@
+---
+title: "Crónicas de Caracas"
+key: "JBZYXDUE"
+author: Rojas, Arístides
+---
+<div data-schema-version="8"><p><p>Caen los imperios y derrúmbanse las sociedades, de la misma manera que se desprenden las hojas de los árboles. Todo nace y muere, todo pasa y nada es estable, porque tal es el destino, al cual sometió la Providencia las cosas sublunares.¿Dónde están los patronos y abogados de Caracas?</p></p></div>

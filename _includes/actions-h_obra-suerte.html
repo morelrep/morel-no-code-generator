@@ -19,7 +19,7 @@
         {% assign fullres_cover = lores_cover | replace: 'frontcover&img=1&zoom=1', 'frontcover&img=1&zoom=4' %}
          {% include book-list-url-img_obra-suerte.html %}
                      <a href="{{ img.Download }}" target="_blank" download><img src="
-                        {% if site.biba != true %}{{ img-url }}{% elsif img.Cover == '' or img.Attachment == nil%}{{ fullres_cover }}{% else %}{{ img-url }}{% endif %}" class="responsive" alt="{{ img.Title }}" style="background-color: {% include colors_list.html %}; background-image: {% include background.html %};"></a>
+                        {% if site.biba != true %}{{ img-url }}{% elsif book.Cover == '' or book.Cover == nil%}{{ fullres_cover }}{% else %}{{ img-url }}{% endif %}" class="responsive" alt="{{ img.Title }}" style="background-color: {% include colors_list.html %}; background-image: {% include background.html %};"></a>
                      <div class="actions-h">
                          <!-- AddToAny BEGIN -->
                          {% if img.Download != "" and img.Download != nil %} 

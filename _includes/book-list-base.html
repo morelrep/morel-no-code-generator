@@ -2,7 +2,7 @@
 {% include book-list-url-img.html %}
 <div class="basis">
     <div class="container">
-       <a href = "{% include book-list-url-page.html %}"> <img src="{{ img-url }}" alt="{{ book.Title }}" class="image sombra" style="background-color: {% include colors_list.html %}; background-image: {% include background.html %}; {% include sizes.html %}"></a>
+       <a href = "{% include book-list-url-page.html %}"> <img src="{{site.BASE_PATH}}/assets/empty.png" alt="{{ book.Title }}" class="image sombra" style="background-color: {% include colors_list.html %}; background-image: {% include background.html %}; {% include sizes.html %}"></a>
         <div class="overlay">
             <div class="text">
                 {% include book-list-metadata.html %}
