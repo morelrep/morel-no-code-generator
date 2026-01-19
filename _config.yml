@@ -7,7 +7,7 @@ email : proyectomorel@gmail.com
 github : morelrep
 twitter :
 instagram:
-podcast: false # Set to true if you want to enable podcast or blog support
+podcast: true # Set to true if you want to enable podcast or blog support
 jotform: https://form.jotform.com/211904785426056
 bsky: 
 mastodon:
