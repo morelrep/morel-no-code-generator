@@ -31,7 +31,7 @@ Además de recuperar y redistribuir el patrimonio documental venezolano centrali
 
 ### 7. Reproducibilidad y contribuciones
 
-Las herramientas desarrolladas son abiertas y permiten la reproducción del modelo en otros corpus. La plataforma admite contribuciones de los usuarios, que pueden incluir traducciones, edición o curación de contenidos, programación, así como donaciones y compras de productos promocionales.
+Las herramientas desarrolladas para BibAV son abiertas y permiten la reproducción del modelo en otros corpus. La plataforma admite contribuciones de los usuarios, que pueden incluir traducciones, edición o curación de contenidos, programación, así como donaciones y compras de productos promocionales.
 
 ---
 
