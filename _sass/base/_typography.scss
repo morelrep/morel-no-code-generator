@@ -181,3 +181,13 @@ code {
   border-radius: 3px;
   color: #333;
 }
+
+.footnote {
+  vertical-align: super;
+  font-size: 0.6em;
+}
+
+.footnotes ol, .footnotes p {
+  font-size: 0.9em;
+  list-style-position: inside;
+}
